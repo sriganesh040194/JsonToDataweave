@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToDataweave", "JsonToDataweave\JsonToDataweave.csproj", "{3B1AE3F6-D613-4D35-8067-FD8201DE391D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B1AE3F6-D613-4D35-8067-FD8201DE391D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1AE3F6-D613-4D35-8067-FD8201DE391D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1AE3F6-D613-4D35-8067-FD8201DE391D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1AE3F6-D613-4D35-8067-FD8201DE391D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3934C50F-5882-4E65-82AA-C328368E3805}
+	EndGlobalSection
+EndGlobal
