@@ -8,19 +8,29 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 using Humanizer;
+using System.Text.RegularExpressions;
 
 namespace JsonToDataweave
 {
     class Program
     {
 
-        private static List<String> targetXElementNames;
+        private static List<string> targetFileValue;
+
+        // A very simple regular expression.
+        private static string regexPattern = @"\[*\d\]";
+
+        private static Regex regex = new Regex(regexPattern);
+
+        // Assign the replace method to the MatchEvaluator delegate.
+        private static MatchEvaluator _matchEval = new MatchEvaluator(ReplaceRegex);
+
         /// <summary>
         /// 
         /// </summary>
         /// <param name="source"></param>
         /// <param name="target"></param>
-        /// <param name="matchPercent"></param>
+        /// <param name="outputFileName"></param>
         //static void Main(FileInfo source, FileInfo target, double matchPercent = 80)
 
         static void Main(FileInfo source, FileInfo target, String outputFileName = "output.dwl")
@@ -43,49 +53,47 @@ namespace JsonToDataweave
             }
 
 
-
-            var sourceFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/source.json";
-
-            var targetFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/target.xml";
-
-            var targetFileValue = XDocument.Load(targetFileName);
-            targetXElementNames = targetFileValue.Descendants().ToList().Select(x => x.Name.ToString()).ToList();
-
-
-            foreach (var node in targetFileValue.Nodes())
+            try
             {
-                Console.WriteLine(node);
 
-                Console.WriteLine(String.Compare(node.ToString(), "Action_Type"));
+                var sourceFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/source.json";
+
+                var targetFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/target.xml";
+
+
+
+                var targetFile = XDocument.Load(targetFileName);
+                targetFileValue = targetFile.Descendants().ToList().Select(x => x.Name.ToString()).ToList();
+
+
+                var sourceFile = File.ReadAllText(sourceFileName);
+                var sourceFileValue = JObject.Parse(sourceFile);
+
+
+                var dataweave = "{";
+                foreach (var attribute in sourceFileValue)
+                {
+                    dataweave += ConstructDataWeave(attribute.Value, "payload") + ",\n";
+                }
+
+                dataweave += "}";
+                Console.WriteLine(dataweave);
+
+                File.WriteAllText(outputFileName, dataweave);
             }
-
-            var sourceFile = File.ReadAllText(sourceFileName);
-            var sourceFileValue = JObject.Parse(sourceFile);
-            var dataweave = "{";
-            foreach (var attribute in sourceFileValue)
+            catch (Exception e)
             {
-                dataweave += ParseChildren(attribute.Value, "payload") + ",\n";
+                Console.WriteLine($"Error Occured: \n\n ======================================================= \n {e}");
             }
-
-            dataweave += "}";
-            Console.WriteLine(dataweave);
-
-            File.WriteAllText(outputFileName, dataweave);
         }
 
-        private static string ConstructDataWeave(IJEnumerable<JToken> jTokens, string mapString)
+        public static string ReplaceRegex(Match m)
+        // Replace each Regex with empty string.
         {
-            var dataweave = string.Empty;
-
-            foreach (var child in jTokens.Children())
-            {
-                dataweave += ParseChildren(child, mapString) + ",\n";
-            }
-            return dataweave;
+            return "";
         }
 
-
-        private static string ParseChildren(JToken jToken, string mapString)
+        private static string ConstructDataWeave(JToken jToken, string mapString, bool isArray = false)
         {
             var dataweave = string.Empty;
             if (jToken.Type == JTokenType.Object)
@@ -93,13 +101,61 @@ namespace JsonToDataweave
 
                 var splitString = jToken.Path.Split(".");
                 //dataweave += $"\"{splitString.Last()} \" : {splitString.Last()} mapObject ({splitString.Last()}item, {splitString.Last()}value) {{ {ConstructDataWeave(jToken.Children(), splitString.Last() + "item")} }} ";
-
-                dataweave += $"\"{FindString(splitString.Last())}\" : {{ {ConstructDataWeave(jToken.Children(), mapString + "." + splitString.Last())} }} ";
+                if (!isArray)
+                {
+                    dataweave += $"\"{FindString(splitString.Last())}\" : {{ ";
+                    foreach (var x in jToken.Children())
+                    {
+                        //splitString = x.Path.Split(".");
+                        dataweave += ConstructDataWeave(x, mapString + "." + regex.Replace(splitString.Last(), _matchEval)) + ",\n";
+                    }
+                    dataweave += "}";
+                }
+                else
+                {
+                    foreach (var x in jToken.Children())
+                    {
+                        dataweave += ConstructDataWeave(x, mapString) + ",\n";
+                    }
+                }
             }
+
             else if (jToken.Type == JTokenType.Array)
             {
                 var splitString = jToken.Path.Split(".");
-                dataweave = $"\"{FindString(splitString.Last())}\" : {mapString + "." + splitString.Last()} map (({splitString.Last()}Item, {splitString.Last()}Index) -> {{ {ConstructDataWeave(jToken.Children(), splitString.Last() + "Item")} }} ) ";
+                //dataweave = $"\"{FindString(splitString.Last())}\" : {mapString + "." + splitString.Last()} map (({splitString.Last()}Item, {splitString.Last()}Index) -> {{ {ConstructDataWeave(jToken.Children(), splitString.Last() + "Item")} }} ) ";
+
+                var compositeString = mapString + "." + splitString.Last();
+
+                if (mapString.Equals(splitString.Last(), StringComparison.InvariantCultureIgnoreCase))
+                //{
+                //    var temp = string.Empty;
+                //    //foreach (var split in splitString.Take(splitString.Length - 1))
+                //        temp += r.Replace(splitString[splitString.Length-1], myEvaluator) + "Item.";
+                //    compositeString = temp + splitString.Last();
+                {
+
+                    compositeString = regex.Replace(splitString[splitString.Length - 2], _matchEval) + "Item." + splitString.Last();
+                }
+                dataweave = $"\"{FindString(splitString.Last())}\" : {compositeString} map (({splitString.Last()}Item, {splitString.Last()}Index) -> {{";
+                foreach (var x in jToken.Children())
+                {
+                    // splitString = x.Path.Split(".");
+                    dataweave += ConstructDataWeave(x, splitString.Last() + "Item", isArray: true);// + ",\n";
+                }
+                dataweave += "})";
+            }
+
+            //Internal Array
+            else if (jToken.Count() > 0 && jToken.Children().FirstOrDefault().Type == JTokenType.Array)
+            {
+                var splitString = jToken.Path.Split(".");
+
+                foreach (var x in jToken.Children())
+                {
+
+                    dataweave += ConstructDataWeave(x, splitString.Last());
+                }
             }
 
             else
@@ -115,10 +171,10 @@ namespace JsonToDataweave
         private static string FindString(string toSearch)
         {
 
-            var attributeName = targetXElementNames.Where(z => String.Equals(z.Humanize(LetterCasing.LowerCase), toSearch.Humanize(LetterCasing.LowerCase), StringComparison.InvariantCultureIgnoreCase)).FirstOrDefault();
+            var attributeName = targetFileValue.Where(z => String.Equals(z.Humanize(LetterCasing.LowerCase), toSearch.Humanize(LetterCasing.LowerCase), StringComparison.InvariantCultureIgnoreCase)).FirstOrDefault();
 
             if (String.IsNullOrEmpty(attributeName))
-                attributeName = FindHighestProbablityNodeName(targetXElementNames, toSearch);
+                attributeName = FindHighestProbablityNodeName(targetFileValue, toSearch);
             return attributeName;
         }
 

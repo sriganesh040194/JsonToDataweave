@@ -1,0 +1,1080 @@
+{
+    "header": {
+        "source": "Manhattan Associates",
+        "actionType": "Create",
+        "sequenceNumber": "",
+        "batchId": "",
+        "referenceId": "1656502",
+        "messageType": "Shipper Shipment Update",
+        "companyId": "100",
+        "msgLocale": "English (United States)",
+        "version": "",
+        "internalReferenceId": "",
+        "internalDateTimeStamp": "",
+        "externalReferenceId": "Inbound",
+        "externalDateTimeStamp": "",
+        "destination": "AUSA"
+    },
+    "shipments": [
+        {
+            "tcshipmentId": "CS01708299",
+            "businessFunction": "N",
+            "synchGroupId": "",
+            "synchronizeLock": "",
+            "assignedCmid": "",
+            "assignedCmshipmentId": "",
+            "designatedCarrierCode": "",
+            "designatedEquipmentCode": "",
+            "designatedModeCode": "",
+            "designatedServiceLevel": "",
+            "designatedVoyageOrFlightNumber": "",
+            "assignedCarrierCode": "AU20",
+            "assignedCarrierName": "Giant Martins Fleet",
+            "assignedCarrierApnumber": "",
+            "assignedCarrierApnumber2": "F-038345",
+            "assignedCarrierApnumber3": "",
+            "assignedEquipmentCode": "",
+            "assignedModeCode": "TL",
+            "assignedServiceLevel": "",
+            "staticRouteId": "",
+            "billToTitle": "",
+            "billToName": "",
+            "billToStreetAddress": "",
+            "billToCity": "",
+            "billToStateProv": "",
+            "billToPostalCode": "",
+            "billToCountryCode": "",
+            "billToPhone": "",
+            "billingMethodCode": "1",
+            "bolnumber": "",
+            "trailerNumber": "",
+            "tractorNumber": "",
+            "businessUnit": "100",
+            "distancesProvided": "true",
+            "directDistance": "99.6",
+            "outOfRouteMiles": "0.0",
+            "outOfRouteDistance": "0.0",
+            "distance": "99.6",
+            "distanceUom": "MI",
+            "isHazmat": "false",
+            "isCancelled": "false",
+            "isPerishable": "true",
+            "pronumber": "",
+            "purchaseOrder": "",
+            "referenceNumber": "",
+            "refShipmentNbr": "",
+            "numDocks": "2",
+            "numStops": "2",
+            "transportationResponsibilityCode": "SHP",
+            "tenderResponseDue": "",
+            "brokerCarrierCode": "",
+            "brokerReference": "",
+            "statusChangeDttm": "02/03/2021 18:14",
+            "lastUpdatedDttm": "02/03/2021 18:14",
+            "lastUpdatedSourceTypeValue": "Internal System.",
+            "lastUpdatedSource": "Auto-Accept",
+            "spotCharge": {
+                "currencyCode": ""
+            },
+            "shipmentStatus": "Accepted",
+            "actualCost": "0.01",
+            "budgetedCost": {
+                "currencyCode": "USD",
+                "text": "0.00"
+            },
+            "totalCost": "0.01",
+            "currencyCode": "USD",
+            "totalRevenue": {
+                "currencyCode": ""
+            },
+            "lineHaulRevenue": {
+                "currencyCode": ""
+            },
+            "accessorialRevenue": {
+                "currencyCode": ""
+            },
+            "stopOffRevenue": {
+                "currencyCode": ""
+            },
+            "cmdiscountRevenue": {
+                "currencyCode": ""
+            },
+            "freightRevenueSpotCharge": {
+                "currencyCode": ""
+            },
+            "linehaulCost": "0.01",
+            "carrierCharge": "",
+            "timeFeasibility": "true",
+            "tenderDate": "02/03/2021 18:14",
+            "businessPartnerCode": "",
+            "externalSystemShipmentId": "",
+            "productClassCode": "O-Dairy",
+            "protectionLevelCode": "33-40",
+            "packagingCode": "",
+            "dropOffPickupCode": "",
+            "deliveryRequirementCode": "NEI",
+            "wmsstatus": "",
+            "wave": "Fresh",
+            "designatedTractorCode": "",
+            "designatedDriverType": "",
+            "moveType": "SHP",
+            "feasibleTractorCode": "53Tractor",
+            "feasibleDriverType": "DCAU20 Layover",
+            "feasibleEquipmentCode": "53REF",
+            "feasibleVoyageOrFlightNumber": "",
+            "radialDistance": "",
+            "radialDistanceUom": "",
+            "radialDistanceProvided": "false",
+            "merchandizingDepartment": "",
+            "priorityType": "",
+            "monetaryValue": {
+                "currencyCode": ""
+            },
+            "incotermName": "",
+            "contractNumber": "",
+            "vesselName": "",
+            "voyageFlightNum": "",
+            "originPort": "",
+            "destinationPort": "",
+            "masterAirwayBill": "",
+            "forwarderAirwayBill": "",
+            "bookingRefCarrier": "",
+            "bookingRefShipper": "",
+            "commodityCode": "",
+            "unnumber": "",
+            "shipmentLegType": "",
+            "loadClosedIndicator": "false",
+            "prodSchedRefNumber": "",
+            "assignedSecondaryCarrierCode": "",
+            "designatedSecondaryCarrierCode": "",
+            "sealNumber": "",
+            "routeTypeCode": "",
+            "routingShipWcontrolNbr": "",
+            "shipGroupId": "",
+            "authorizationNbr": "",
+            "hubId": "",
+            "consAddressCode": "",
+            "trailerGenCode": "",
+            "hazmatCertiContact": "",
+            "hazmatCertiDecalartion": "",
+            "customerCode": "",
+            "assignedCustomerCode": "",
+            "ratingQualifier": {
+                "hasrd": "false",
+                "hasbh": "false",
+                "hasrt": "false"
+            },
+            "loadingMethod": {
+                "isFilo": "true",
+                "isCoolestAtNose": "false"
+            },
+            "Comment": [
+                {
+                    "Visibility": "???",
+                    "Commenttext": "Str1234"
+                }
+            ],
+            "customFieldList": [
+                {
+                    "name": "Collect_Method",
+                    "value": ""
+                },
+                {
+                    "name": "Creation_Source",
+                    "value": ""
+                },
+                {
+                    "name": "LATE_REASON_CODE",
+                    "value": ""
+                },
+                {
+                    "name": "LATE_REASON_DETAIL",
+                    "value": ""
+                },
+                {
+                    "name": "LATE_REVISED_ETA",
+                    "value": ""
+                },
+                {
+                    "name": "OMIT_CAMS",
+                    "value": "false"
+                },
+                {
+                    "name": "OMIT_WMS",
+                    "value": "false"
+                },
+                {
+                    "name": "Op_Co",
+                    "value": "AUSA"
+                },
+                {
+                    "name": "PAYMENT_AMOUNT",
+                    "value": ""
+                },
+                {
+                    "name": "PAYMENT_DATE",
+                    "value": ""
+                },
+                {
+                    "name": "PAYMENT_ID",
+                    "value": ""
+                },
+                {
+                    "name": "PICKUP_DETAIL",
+                    "value": ""
+                },
+                {
+                    "name": "PO_DUE_DT_CHG",
+                    "value": ""
+                },
+                {
+                    "name": "Pickup_Date",
+                    "value": ""
+                },
+                {
+                    "name": "Pickup_Number",
+                    "value": ""
+                },
+                {
+                    "name": "QtyDiscrepancy",
+                    "value": "false"
+                },
+                {
+                    "name": "RGBatchCount",
+                    "value": "100"
+                },
+                {
+                    "name": "RGBatchID",
+                    "value": "000054077"
+                },
+                {
+                    "name": "Route_ID",
+                    "value": "5081"
+                },
+                {
+                    "name": "Shipment_Notes",
+                    "value": ""
+                },
+                {
+                    "name": "Vendor_Ship_From",
+                    "value": ""
+                }
+            ],
+            "commoditySize": [
+                {
+                    "commodityClassCode": "FAK",
+                    "size": [
+                        {
+                            "sizeUomcode": "LBS",
+                            "sizeValue": "24252",
+                            "shippedSizeValue": "",
+                            "receivedSizeValue": ""
+                        },
+                        {
+                            "sizeUomcode": "CUFT",
+                            "sizeValue": "1365",
+                            "shippedSizeValue": "",
+                            "receivedSizeValue": ""
+                        },
+                        {
+                            "sizeUomcode": "WPLT",
+                            "sizeValue": "19.6",
+                            "shippedSizeValue": "",
+                            "receivedSizeValue": ""
+                        },
+                        {
+                            "sizeUomcode": "CASES",
+                            "sizeValue": "1231",
+                            "shippedSizeValue": "",
+                            "receivedSizeValue": ""
+                        },
+                        {
+                            "sizeUomcode": "OPLT",
+                            "sizeValue": "20",
+                            "shippedSizeValue": "",
+                            "receivedSizeValue": ""
+                        }
+                    ]
+                }
+            ],
+            "Accessorial": [
+                {
+                    "Accessorialcode": "Str1234",
+                    "Accessorialdatasourcevalue": "???",
+                    "Isapproved": "Str1234",
+                    "Payee": "Str1234",
+                    "Accessorialcost": {
+                        "-CurrencyCode": "???",
+                        "#Text": "???"
+                    }
+                }
+            ],
+            "Revenueaccessorial": [
+                {
+                    "Accessorialcode": "Str1234",
+                    "Accessorialdatasourcevalue": "???",
+                    "Isapproved": "Str1234",
+                    "Payee": "Str1234",
+                    "Accessorialcost": {
+                        "-CurrencyCode": "???",
+                        "#Text": "???"
+                    }
+                }
+            ],
+            "extendedAttributes": {
+                "module": "TLM_SHIPMENT_EXT_1",
+                "vtripId": "",
+                "vtripSeq": "",
+                "assignedRailRouteName": []
+            },
+            "stop": [
+                {
+                    "possibleArrivalStart": "02/04/2021 01:14",
+                    "possibleArrivalEnd": "02/04/2021 01:14",
+                    "possibleDepartureStart": "02/04/2021 01:44",
+                    "possibleDepartureEnd": "02/04/2021 01:44",
+                    "arrivalStart": "02/04/2021 01:14",
+                    "arrivalEnd": "02/04/2021 01:14",
+                    "departureStart": "02/04/2021 01:44",
+                    "departureEnd": "02/04/2021 01:44",
+                    "actualDeparture": "",
+                    "actualArrival": "",
+                    "facilityAliasId": "DCAU20P",
+                    "isFacilityDc": "true",
+                    "handlerCode": "",
+                    "isDropAndHook": "false",
+                    "isAppointmentRequired": "",
+                    "isReconsigned": "false",
+                    "stopSequence": "1",
+                    "stopStatus": "",
+                    "nameOfLocation": "Giant Carlisle - Carlisle PDC",
+                    "contactFirstName": "",
+                    "contactLastName": "",
+                    "contactPhone": "",
+                    "billOfLadingNumber": "",
+                    "address": "1621 Industrial Dr",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Carlisle",
+                    "countryCode": "US",
+                    "county": "0830",
+                    "postalCode": "17013",
+                    "stateProv": "PA",
+                    "distance": "0.0",
+                    "wave": "",
+                    "waveOption": "",
+                    "loadClosedIndicator": "false",
+                    "estimatedArrivalTime": "02/04/2021 01:14",
+                    "estimatedDepartureTime": "",
+                    "arrivalNetdttm": "",
+                    "arrivalNltdttm": "",
+                    "departureNetdttm": "",
+                    "departureNltdttm": "",
+                    "estimatedDispatchDttm": "02/04/2021 01:14",
+                    "paperworkStartDttm": "02/04/2021 01:14",
+                    "pickStartDttm": "02/04/2021 01:14",
+                    "shipmentStartDttm": "02/04/2021 01:14",
+                    "shipmentEndDttm": "02/04/2021 01:14",
+                    "referenceField1": "",
+                    "referenceField2": "",
+                    "referenceField3": "",
+                    "referenceField4": "",
+                    "referenceField5": "",
+                    "referenceField6": "",
+                    "referenceField7": "",
+                    "referenceField8": "",
+                    "referenceField9": "",
+                    "referenceField10": "",
+                    "calculatedEstimatedArrivalTime": "",
+                    "actualArrivalStatus": "",
+                    "autoAppointment": "false",
+                    "sealNumber": "",
+                    "Comment": [
+                        {
+                            "Visibility": "???",
+                            "Commenttext": "Str1234"
+                        }
+                    ],
+                    "stopAction": {
+                        "actionCode": "PU",
+                        "dockId": "2",
+                        "order": [
+                            {
+                                "tcorderId": "DCAU2011-069622-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-069772-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-069852-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-071593-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-071597-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-073894-001-20210203"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "possibleArrivalStart": "02/04/2021 03:30",
+                    "possibleArrivalEnd": "02/04/2021 03:30",
+                    "possibleDepartureStart": "02/04/2021 04:49",
+                    "possibleDepartureEnd": "02/04/2021 04:49",
+                    "arrivalStart": "02/04/2021 03:30",
+                    "arrivalEnd": "02/04/2021 03:30",
+                    "departureStart": "02/04/2021 04:49",
+                    "departureEnd": "02/04/2021 04:49",
+                    "actualDeparture": "",
+                    "actualArrival": "",
+                    "facilityAliasId": "STAU6105",
+                    "isFacilityDc": "false",
+                    "handlerCode": "",
+                    "isDropAndHook": "false",
+                    "isAppointmentRequired": "",
+                    "isReconsigned": "false",
+                    "stopSequence": "2",
+                    "stopStatus": "",
+                    "nameOfLocation": "STORE 6105 GM KENNETT SQUARE",
+                    "contactFirstName": "",
+                    "contactLastName": "",
+                    "contactPhone": "",
+                    "billOfLadingNumber": "",
+                    "address": "350 SCARLET ROAD 220",
+                    "address2": "",
+                    "address3": "",
+                    "city": "KENNETT SQUARE",
+                    "countryCode": "US",
+                    "county": "",
+                    "postalCode": "19348",
+                    "stateProv": "PA",
+                    "distance": "99.6",
+                    "wave": "Fresh",
+                    "waveOption": "1",
+                    "loadClosedIndicator": "false",
+                    "estimatedArrivalTime": "02/04/2021 04:49",
+                    "estimatedDepartureTime": "",
+                    "arrivalNetdttm": "",
+                    "arrivalNltdttm": "",
+                    "departureNetdttm": "",
+                    "departureNltdttm": "",
+                    "estimatedDispatchDttm": "02/04/2021 04:49",
+                    "paperworkStartDttm": "02/04/2021 04:49",
+                    "pickStartDttm": "02/04/2021 03:30",
+                    "shipmentStartDttm": "02/04/2021 03:30",
+                    "shipmentEndDttm": "02/04/2021 04:49",
+                    "referenceField1": "",
+                    "referenceField2": "",
+                    "referenceField3": "",
+                    "referenceField4": "",
+                    "referenceField5": "",
+                    "referenceField6": "",
+                    "referenceField7": "",
+                    "referenceField8": "",
+                    "referenceField9": "",
+                    "referenceField10": "",
+                    "calculatedEstimatedArrivalTime": "",
+                    "actualArrivalStatus": "",
+                    "autoAppointment": "false",
+                    "sealNumber": "",
+                    "stopRevenue": {
+                        "currencyCode": ""
+                    },
+                    "stopMargin": {
+                        "currencyCode": ""
+                    },
+                    "stopCost": {
+                        "currencyCode": "USD",
+                        "text": "0.01"
+                    },
+                    "linehaulRevenue": {
+                        "currencyCode": "AED"
+                    },
+                    "accessorialRevenue": {
+                        "currencyCode": ""
+                    },
+                    "stopOffRevenue": {
+                        "currencyCode": "AED"
+                    },
+                    "cmdiscountRevenue": {
+                        "currencyCode": "AED"
+                    },
+                    "stopAction": {
+                        "actionCode": "DL",
+                        "dockId": "Default",
+                        "order": [
+                            {
+                                "tcorderId": "DCAU2011-069622-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-069772-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-069852-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-071593-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-071597-001-20210203"
+                            },
+                            {
+                                "tcorderId": "DCAU2011-073894-001-20210203"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "distributionOrder": [
+                {
+                    "distributionOrderId": "DCAU2011-069622-001-20210203",
+                    "orderType": "",
+                    "orderedDttm": "02/03/2021 15:29",
+                    "doTransportationStatus": "Planned",
+                    "doFulfillmentStatus": "Released",
+                    "synchGroupId": "",
+                    "synchronizeLock": "",
+                    "updateActionType": "",
+                    "actualShippedDttm": "",
+                    "isCancelled": "false",
+                    "businessUnit": "100",
+                    "merchandizingDept": "",
+                    "monetaryValue": "",
+                    "monetaryValueCurrencyCode": "",
+                    "transportationResponsibilityCode": "SHP",
+                    "billingMethodCode": "1",
+                    "businessPartnerId": "",
+                    "mustReleaseByDttm": "",
+                    "isOriginalOrder": "true",
+                    "hasSplit": "false",
+                    "parentOrderId": "",
+                    "productClassCode": "O-Prodce",
+                    "isPerishable": "true",
+                    "protectionLevelCode": "33-40",
+                    "isHazmat": "false",
+                    "dangerousGoodsCode": "",
+                    "productionScheduleRefNbr": "",
+                    "priority": "",
+                    "originalBudgetedCost": "",
+                    "budgetedCost": "",
+                    "budgetedCostCurrencyCode": "USD",
+                    "actualCost": "0.01",
+                    "actualCostCurrencyCode": "USD",
+                    "totalActualCost": "0.0061",
+                    "totalActualCostCurrencyCode": "USD",
+                    "freightRevenue": "",
+                    "freightRevenueCurrencyCode": "",
+                    "referenceField1": "GM",
+                    "referenceField2": "DCAU20P",
+                    "referenceField3": "",
+                    "referenceField4": "",
+                    "referenceField5": "",
+                    "referenceField6": "",
+                    "referenceField7": "",
+                    "referenceField8": "",
+                    "referenceField9": "",
+                    "referenceField10": "",
+                    "nmfcFreightClass": "",
+                    "originalEstimatedNbrOfPalletsBridged": "0",
+                    "originalEstimatedNbrOfLpnsBridged": "0",
+                    "finalEstimatedNbrOfLpns": "0",
+                    "planningOriginFacilityId": "",
+                    "planningDestinationFacilityId": "",
+                    "moveType": "SHP",
+                    "movementOption": "Unrestricted",
+                    "transportationWaveId": "Fresh",
+                    "transportationWaveOptionId": "1",
+                    "residentialDeliveryRequired": "NEI",
+                    "dropoffOrPickup": "",
+                    "packaging": "",
+                    "incotermName": "",
+                    "incotermLocationAvailabilityDttm": "",
+                    "distributionShipVia": "",
+                    "blockAutoCreateFlag": "false",
+                    "blockAutoConsolidateFlag": "false",
+                    "isPartiallyPlanned": "false",
+                    "assignedModeCode": "TL",
+                    "assignedCarrierCode": "AU20",
+                    "assignedServiceLevelCode": "",
+                    "assignedEquipmentCode": "",
+                    "designatedModeCode": "",
+                    "designatedCarrierCode": "",
+                    "designatedServiceLevelCode": "",
+                    "designatedEquipmentCode": "",
+                    "designatedTractorCode": "",
+                    "designatedDriverType": "",
+                    "designatedVoyageOrFlightNumber": "",
+                    "externalSystemPurchaseOrderNbr": "",
+                    "distroNumber": "",
+                    "salesOrderNbr": "",
+                    "isBackOrdered": "false",
+                    "advertizingDate": "",
+                    "customerCode": "",
+                    "customerName": "",
+                    "dcCenterNbr": "",
+                    "federatedStoreNbr": "",
+                    "originFacilityAliasId": "DCAU20P",
+                    "originDockId": "",
+                    "originFacilityName": "Giant Carlisle - Carlisle PDC",
+                    "originAddressLine1": "1621 Industrial Dr",
+                    "originAddressLine2": "",
+                    "originAddressLine3": "",
+                    "originCity": "Carlisle",
+                    "originCounty": "0830",
+                    "originCountry": "US",
+                    "originStateOrProvince": "PA",
+                    "originPostalCode": "17013",
+                    "hazmatOfferorName": "",
+                    "pickupStartDttm": "02/03/2021 15:00",
+                    "pickupEndDttm": "02/04/2021 23:59",
+                    "originShipThruFacilityAliasId": "",
+                    "scheduledDayOfWeek": "Thursday",
+                    "destinationFacilityAliasId": "STAU6105",
+                    "destinationDockId": "Default",
+                    "destinationFacilityName": "STORE 6105 GM KENNETT SQUARE",
+                    "destinationAddressLine1": "350 SCARLET ROAD 220",
+                    "destinationAddressLine2": "",
+                    "destinationAddressLine3": "",
+                    "destinationCity": "KENNETT SQUARE",
+                    "destinationCounty": "",
+                    "destinationCountry": "US",
+                    "destinationStateOrProvince": "PA",
+                    "destinationPostalCode": "19348",
+                    "pobox": "false",
+                    "deliveryStartDttm": "02/03/2021 15:00",
+                    "deliveryEndDttm": "02/04/2021 23:59",
+                    "destinationContactName": "",
+                    "destinationContactTelephoneNbr": "",
+                    "destinationContactFaxNbr": "",
+                    "destinationContactEmailAddress": "",
+                    "destinationShipThruFacilityAliasId": "",
+                    "destinationGlobalLocationNbr": "",
+                    "destinationPrimaryMaxiAddressNbr": "",
+                    "destinationSecondaryMaxiAddressNbr": "",
+                    "packAndHoldFlag": "",
+                    "preStickerCode": "",
+                    "majorOrderGroupAttribute": "",
+                    "printedDttm": "",
+                    "lpnCubingIndicator": "0",
+                    "palletCubingIndicator": "0",
+                    "prepackCubingIndicator": "0",
+                    "palletLpnOption": "",
+                    "shipGroupId": "",
+                    "shipGroupSequence": "",
+                    "refShipmentNbr": "",
+                    "refShipmentStopSeqNbr": "",
+                    "billOfLadingNbr": "",
+                    "bolBreakAttribute": "",
+                    "designatedZoneSkip": "",
+                    "compartmentNbr": "",
+                    "importer": "",
+                    "customsBrokerAccountNbr": "",
+                    "hasDocumentsOnly": "false",
+                    "relatedPartiesFlag": "false",
+                    "internationalGoodsDescription": "",
+                    "ftsrNbr": "",
+                    "shippingCharges": "",
+                    "codFundsIndicator": "",
+                    "billingAccountNbr": "",
+                    "dutyAndTaxCharges": "",
+                    "dutyAndTaxPaymentType": "",
+                    "dutyAndTaxAccountNbr": "",
+                    "billToName": "",
+                    "billToTitle": "",
+                    "billToFacilityAliasId": "",
+                    "billToFacilityName": "",
+                    "billToAddressLine1": "",
+                    "billToAddressLine2": "",
+                    "billToAddressLine3": "",
+                    "billToCity": "",
+                    "billToCounty": "",
+                    "billToCountryCode": "",
+                    "billToStateOrProv": "",
+                    "billToPostalCode": "",
+                    "billToEmailAddress": "",
+                    "billToFaxNbr": "",
+                    "billToTelephoneNbr": "",
+                    "routeTo": "",
+                    "routeType1": "",
+                    "routeType2": "",
+                    "routingShipGroupNumber": "",
+                    "nbrOfPackingSlipsPrinted": "",
+                    "defaultLanguageCode": "",
+                    "markFor": "",
+                    "aracctNbr": "",
+                    "arcode": "",
+                    "addressCode": "",
+                    "advertisingCode": "",
+                    "frtFwdrAcctNbr": "",
+                    "orderGenerationDate": "02/03/2021 15:35",
+                    "zoneSkip": "",
+                    "isCustomerPickup": "",
+                    "isDirectAllowed": "",
+                    "manifestNbr": "",
+                    "orderConsolidationProfile": "",
+                    "distributionOrderType": "",
+                    "routingAttribute": "",
+                    "nonMachinable": "false",
+                    "codReturnCompanyName": "",
+                    "incotermFacilityId": "",
+                    "dsgShipVia": "",
+                    "dsgStaticRouteId": "",
+                    "deliveryChannel": "",
+                    "partlShipConfFlag": "true",
+                    "allowPreBilling": "false",
+                    "laneName": "",
+                    "declaredValue": "",
+                    "declaredValueCurrencyCode": "",
+                    "taxId": "",
+                    "orderReceived": "",
+                    "commodityCode": "",
+                    "numSplits": "0",
+                    "loadingSequence": "1",
+                    "destinationAction": "",
+                    "deliveryOptions": "",
+                    "transportationPlanningOwner": "",
+                    "transportationPlanningDirection": "",
+                    "preBillStatus": "",
+                    "lpnLabelType": "",
+                    "nbrOfShippingLabelsToPrint": "",
+                    "palletContentLabelType": "",
+                    "contentLabelType": "",
+                    "nbrOfContentLabelsToPrint": "",
+                    "packingSlipType": "",
+                    "nbrOfPackingSlipsToPrint": "",
+                    "bolType": "",
+                    "manifestType": "",
+                    "printCertificateOfOrigin": "false",
+                    "printCommercialInvoice": "false",
+                    "printExportDeclaration": "false",
+                    "printCanadianCustomsInvoice": "false",
+                    "printDockReceipt": "false",
+                    "printNaftaCertificateOfOrigin": "false",
+                    "printOceanBillOfLading": "false",
+                    "printExportPackingList": "false",
+                    "printLetterOfInstructions": "false",
+                    "orderShipmentSeq": "-2147483648",
+                    "movementType": "",
+                    "splInstrCode1": "",
+                    "splInstrCode2": "",
+                    "splInstrCode3": "",
+                    "splInstrCode4": "",
+                    "splInstrCode5": "",
+                    "splInstrCode6": "",
+                    "splInstrCode7": "",
+                    "splInstrCode8": "",
+                    "splInstrCode9": "",
+                    "splInstrCode10": "",
+                    "designatedTrailerNumber": "",
+                    "upsmicostCenter": "",
+                    "sourceOrder": "",
+                    "autoAppointment": "false",
+                    "commoditySize": [
+                        {
+                            "commodityClassCode": "FAK",
+                            "size": [
+                                {
+                                    "sizeUomcode": "WPLT",
+                                    "sizeValue": "11.6",
+                                    "shippedSizeValue": "",
+                                    "receivedSizeValue": []
+                                },
+                                {
+                                    "sizeUomcode": "LBS",
+                                    "sizeValue": "14698",
+                                    "shippedSizeValue": "",
+                                    "receivedSizeValue": []
+                                },
+                                {
+                                    "sizeUomcode": "OPLT",
+                                    "sizeValue": "11.6",
+                                    "shippedSizeValue": "",
+                                    "receivedSizeValue": []
+                                },
+                                {
+                                    "sizeUomcode": "CASES",
+                                    "sizeValue": "769",
+                                    "shippedSizeValue": "",
+                                    "receivedSizeValue": []
+                                },
+                                {
+                                    "sizeUomcode": "CUFT",
+                                    "sizeValue": "752",
+                                    "shippedSizeValue": "",
+                                    "receivedSizeValue": []
+                                }
+                            ]
+                        }
+                    ],
+                    "customFieldList": [
+                        {
+                            "name": "Pickup_Number",
+                            "value": ""
+                        },
+                        {
+                            "name": "Department",
+                            "value": ""
+                        },
+                        {
+                            "name": "Vendor_Ship_From",
+                            "value": ""
+                        },
+                        {
+                            "name": "Collect_Method",
+                            "value": ""
+                        },
+                        {
+                            "name": "Op_Co",
+                            "value": "AUSA"
+                        },
+                        {
+                            "name": "Creation_Source",
+                            "value": ""
+                        },
+                        {
+                            "name": "CAMS_Load_Code",
+                            "value": ""
+                        },
+                        {
+                            "name": "WMS_Invoice_Number",
+                            "value": "4409241"
+                        },
+                        {
+                            "name": "Order_Type",
+                            "value": "PRP"
+                        },
+                        {
+                            "name": "Warehouse",
+                            "value": ""
+                        },
+                        {
+                            "name": "Batch_Count",
+                            "value": ""
+                        },
+                        {
+                            "name": "Banner",
+                            "value": ""
+                        },
+                        {
+                            "name": "Batch_ID",
+                            "value": "DCAU2011_020321102940_1144"
+                        },
+                        {
+                            "name": "CAMS_Shuttle_Code",
+                            "value": ""
+                        },
+                        {
+                            "name": "PG_Class",
+                            "value": "2"
+                        },
+                        {
+                            "name": "WMS_Batch_ID",
+                            "value": "2011-02031029-1144"
+                        },
+                        {
+                            "name": "Trailer_Type",
+                            "value": ""
+                        },
+                        {
+                            "name": "WMS_Order_ID",
+                            "value": "069622"
+                        },
+                        {
+                            "name": "TRP_Ship_Rqst_ID",
+                            "value": "013538829111"
+                        }
+                    ],
+                    "accessorialOptionGroupList": [],
+                    "lineItem": [
+                        {
+                            "doLineNbr": "1",
+                            "itemName": "DUMMY",
+                            "description": "DUMMY",
+                            "updateActionType": "",
+                            "packageType": "",
+                            "doLineStatus": "Released",
+                            "isCancelled": "false",
+                            "length": "",
+                            "lengthUom": "",
+                            "width": "",
+                            "widthUom": "",
+                            "height": "",
+                            "heightUom": "",
+                            "diameter": "",
+                            "diameterUom": "",
+                            "customerItemNbr": "",
+                            "chuteAssignType": "",
+                            "allocationSourceType": "OnHand",
+                            "totalMonetaryValue": "",
+                            "monetaryValueCurrencyCode": "",
+                            "originalBudgetedCost": "",
+                            "budgetedCost": "",
+                            "budgetedCostCurrencyCode": "USD",
+                            "actualCost": "",
+                            "actualCostCurrencyCode": "USD",
+                            "freightRevenue": "",
+                            "freightRevenueCurrencyCode": "",
+                            "userCanceledQty": "",
+                            "pickupStartDttm": "",
+                            "pickupEndDttm": "",
+                            "deliveryStartDttm": "",
+                            "deliveryEndDttm": "",
+                            "actualShippedDttm": "",
+                            "pickupReferenceNbr": "",
+                            "deliveryReferenceNbr": "",
+                            "referenceField1": "",
+                            "referenceField2": "",
+                            "referenceField3": "",
+                            "referenceField4": "",
+                            "referenceField5": "",
+                            "referenceField6": "",
+                            "referenceField7": "",
+                            "referenceField8": "",
+                            "referenceField9": "",
+                            "referenceField10": "",
+                            "referenceNumberField1": "",
+                            "referenceNumberField2": "",
+                            "referenceNumberField3": "",
+                            "referenceNumberField4": "",
+                            "referenceNumberField5": "",
+                            "referenceBoolean1": "false",
+                            "referenceBoolean2": "false",
+                            "referenceSysCode1": "",
+                            "referenceSysCode2": "",
+                            "referenceSysCode3": "",
+                            "productClassCode": "O-Prodce",
+                            "protectionLevelCode": "33-40",
+                            "nmfcFreightClass": "FAK",
+                            "commodityCode": "",
+                            "isHazmat": "false",
+                            "dangerousGoodsCode": "",
+                            "merchandizingDepartment": "",
+                            "itemGtin": "",
+                            "itemSubstituitionCode": "",
+                            "itemSubstituitionCodeValue": "",
+                            "serialNbrRequiredIndicator": "",
+                            "exportInformationCode": "",
+                            "monetaryValueSizeUom": "",
+                            "unitMonetaryValue": "",
+                            "itemBreakAttribute": "",
+                            "standardLpnWeight": "",
+                            "standardLpnVolume": "",
+                            "standardSubPackQty": "",
+                            "standardPackQty": "",
+                            "standardBundleQty": "",
+                            "standardLpnQty": "",
+                            "standardPalletQty": "",
+                            "cubeMultipleQty": "",
+                            "waveAllocationType": "",
+                            "waveProcessingType": "",
+                            "vasProcessType": "",
+                            "lineType": "Item",
+                            "pickLocationSubLocationId": "",
+                            "pickLocationAssignmentType": "",
+                            "prepackGroupCode": "",
+                            "prepackQty": "",
+                            "lpnType": "",
+                            "lpnSize": "",
+                            "palletType": "",
+                            "assortmentNbr": "",
+                            "orderConsolidationAttr": "",
+                            "lpnBreakAttribute": "",
+                            "packRate": "",
+                            "price": "",
+                            "retailPrice": "",
+                            "priceTicketType": "",
+                            "criticalDimension1": "",
+                            "criticalDimension2": "",
+                            "criticalDimension3": "",
+                            "customsTag": "",
+                            "purchaseOrderNbr": "",
+                            "purchaseOrderLineNbr": "",
+                            "externalSystemPurchaseOrderNbr": "",
+                            "externalSystemPoLineNbr": "",
+                            "storeDepartment": "",
+                            "merchandizeGroup": "",
+                            "merchandizeType": "",
+                            "eventCode": "",
+                            "parentLineId": "",
+                            "priority": "",
+                            "unitTaxAmount": "",
+                            "rtsId": "",
+                            "rtsLineId": "",
+                            "partialFill": "",
+                            "singleUnit": "",
+                            "unitVolume": "",
+                            "unitWeight": "",
+                            "poseq": "",
+                            "shelfDays": "",
+                            "stackRank": "",
+                            "referenceOrderId": "",
+                            "referenceLineItemId": "",
+                            "substitutedParentLineNbr": "",
+                            "isStackable": "0",
+                            "allocationSourceLineId": "",
+                            "allocationSourceId": "",
+                            "manufacturingDttm": "",
+                            "batchRequirementType": "",
+                            "fulfillmentType": "",
+                            "rrc": "",
+                            "isFromSplitter": "false",
+                            "originalOrderedItemName": "",
+                            "substitutionType": "",
+                            "backorderReason": "",
+                            "waveAllocLogRsn": "",
+                            "isGift": "false",
+                            "giftCardValue": "",
+                            "allowRevivalReceiptAlloc": "0",
+                            "segment": "",
+                            "quantity": {
+                                "orderQty": "769",
+                                "shippedQty": "",
+                                "receivedQty": "",
+                                "qtyUom": "CASES"
+                            },
+                            "weight": {
+                                "plannedWeight": "14698",
+                                "shippedWeight": "",
+                                "receivedWeight": "",
+                                "weightUom": "LBS"
+                            },
+                            "volume": {
+                                "plannedVolume": "752",
+                                "shippedVolume": "",
+                                "receivedVolume": "",
+                                "volumeUom": "CUFT"
+                            },
+                            "size1": {
+                                "plannedSize1": "11.6",
+                                "shippedSize1": "",
+                                "receivedSize1": "",
+                                "size1uom": "OPLT"
+                            },
+                            "size2": {
+                                "plannedSize2": "11.6",
+                                "shippedSize2": "",
+                                "receivedSize2": "",
+                                "size2uom": "WPLT"
+                            },
+                            "inventoryAttributes": {
+                                "inventoryType": "",
+                                "productStatus": "",
+                                "batchNbr": "",
+                                "countryOfOrigin": "",
+                                "itemAttribute1": "",
+                                "itemAttribute2": "",
+                                "itemAttribute3": "",
+                                "itemAttribute4": "",
+                                "itemAttribute5": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

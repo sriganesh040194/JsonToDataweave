@@ -1,0 +1,61 @@
+{
+  "appointmentHeader": {
+    "source": "CARRIER"
+  },
+  "appointmentDetails": [
+    {
+      "appointmentID": "003727334",
+      "appointmentType": "Live Unload",
+      "appointmentObject": [
+        {
+          "objectType": "40",
+          "objectID": "A-105473",
+          "stopSeq": "",
+          "purchaseOrderDetails": [
+            {
+              "bookedSize": "",
+              "sizeUOM": "",
+              "tcOrderID": "A-105473",
+              "originFacilityAliasID": "VA067720-071",
+              "destinationFacilityAliasID": "0069197577184",
+              "poDueDate": "05/22/2020",
+              "size": [
+                {
+                  "sizeUOMCode": "LBS",
+                  "sizeValue": "899.0"
+                },
+                {
+                  "sizeUOMCode": "CUFT",
+                  "sizeValue": "87.42"
+                },
+                {
+                  "sizeUOMCode": "VPLT",
+                  "sizeValue": "1.476"
+                },
+                {
+                  "sizeUOMCode": "WPLT",
+                  "sizeValue": "1.476"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "appointmentSlots": [
+        {
+          "slotID": "Produce/Plants/Seafood",
+          "slotStartDttm": "5/22/20 07:30",
+          "slotDuration": "90",
+          "capacityUsed": "1"
+        }
+      ],
+      "customAttributes": [
+        {
+          "attributeName": "LoadType",
+          "attributeValue": ""
+        }
+      ]
+    }
+  ],
+  "creationDateTime": "2020-02-02T09:09:09"
+}
