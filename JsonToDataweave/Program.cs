@@ -56,9 +56,9 @@ namespace JsonToDataweave
             try
             {
 
-                var sourceFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/source.json";
+                var sourceFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/SWFO_Source.json";
 
-                var targetFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/target.xml";
+                var targetFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/SWFO_Target.xml";
 
 
 
@@ -170,11 +170,11 @@ namespace JsonToDataweave
 
         private static string FindString(string toSearch)
         {
-
-            var attributeName = targetFileValue.Where(z => String.Equals(z.Humanize(LetterCasing.LowerCase), toSearch.Humanize(LetterCasing.LowerCase), StringComparison.InvariantCultureIgnoreCase)).FirstOrDefault();
+            toSearch = toSearch.Dehumanize().Humanize(LetterCasing.LowerCase).Replace(" ", "");
+            var attributeName = targetFileValue.Where(z => String.Equals(z.Dehumanize().Humanize(LetterCasing.LowerCase).Replace(" ", ""), toSearch, StringComparison.InvariantCultureIgnoreCase)).FirstOrDefault();
 
             if (String.IsNullOrEmpty(attributeName))
-                attributeName = FindHighestProbablityNodeName(targetFileValue, toSearch);
+                attributeName = FindHighestProbablityNodeName(targetFileValue, toSearch) + "_VERIFY";
             return attributeName;
         }
 
@@ -191,14 +191,14 @@ namespace JsonToDataweave
             string maxSimilarNodeName = string.Empty;
             foreach (var XNodeName in source)
             {
-                var similarity = CalculateSimilarity(XNodeName.Humanize(LetterCasing.LowerCase).Dehumanize(), target.Humanize(LetterCasing.LowerCase).Dehumanize());
+                var similarity = CalculateSimilarity(XNodeName.Dehumanize().Humanize(LetterCasing.LowerCase).Replace(" ", ""), target);
                 if (similarity > maxSimilarity)
                 {
                     maxSimilarity = similarity;
                     maxSimilarNodeName = XNodeName;
                 }
             }
-            return maxSimilarNodeName + "_VERIFY";
+            return maxSimilarNodeName;
         }
 
 
