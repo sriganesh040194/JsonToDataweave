@@ -1,0 +1,2804 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<header>
+		<source>Manhattan Associates</source>
+		<actionType>Create</actionType>
+		<referenceId>2163573</referenceId>
+		<messageType>Shipper Shipment Update</messageType>
+		<companyId>100</companyId>
+		<msgLocale>English (United States)</msgLocale>
+	</header>
+	<shipments>
+		<tcshipmentId>CS02220004</tcshipmentId>
+		<businessFunction>N</businessFunction>
+		<assignedCarrierCode>AU54</assignedCarrierCode>
+		<assignedCarrierName>Stop and Shop Fleet</assignedCarrierName>
+		<assignedModeCode>TL</assignedModeCode>
+		<billingMethodCode>1</billingMethodCode>
+		<businessUnit>100</businessUnit>
+		<distancesProvided>true</distancesProvided>
+		<directDistance>8.4</directDistance>
+		<outOfRouteMiles>18.7</outOfRouteMiles>
+		<outOfRouteDistance>18.7</outOfRouteDistance>
+		<distance>27.1</distance>
+		<distanceUom>MI</distanceUom>
+		<isHazmat>false</isHazmat>
+		<isCancelled>false</isCancelled>
+		<isPerishable>true</isPerishable>
+		<numDocks>3</numDocks>
+		<numStops>3</numStops>
+		<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+		<statusChangeDttm>08/08/2021 17:24</statusChangeDttm>
+		<lastUpdatedDttm>08/08/2021 17:24</lastUpdatedDttm>
+		<lastUpdatedSourceTypeValue>Internal System.</lastUpdatedSourceTypeValue>
+		<lastUpdatedSource>Manhattan Associates</lastUpdatedSource>
+		<spotCharge>
+			<currencyCode>
+			</currencyCode>
+		</spotCharge>
+		<shipmentStatus>Accepted</shipmentStatus>
+		<actualCost />
+		<budgetedCost>
+			<currencyCode>USD</currencyCode>
+			<value>0.00</value>
+		</budgetedCost>
+		<totalCost />
+		<currencyCode>USD</currencyCode>
+		<totalRevenue>
+			<currencyCode>USD</currencyCode>
+			<value>50.00</value>
+		</totalRevenue>
+		<lineHaulRevenue />
+		<accessorialRevenue>
+			<currencyCode>USD</currencyCode>
+		</accessorialRevenue>
+		<stopOffRevenue>
+			<currencyCode>USD</currencyCode>
+			<value>50.00</value>
+		</stopOffRevenue>
+		<cmdiscountRevenue>
+			<currencyCode>USD</currencyCode>
+		</cmdiscountRevenue>
+		<freightRevenueSpotCharge>
+			<currencyCode>
+			</currencyCode>
+		</freightRevenueSpotCharge>
+		<timeFeasibility>true</timeFeasibility>
+		<tenderDate>08/08/2021 17:23</tenderDate>
+		<productClassCode>O-Prodce</productClassCode>
+		<protectionLevelCode>33-40</protectionLevelCode>
+		<deliveryRequirementCode>NEI</deliveryRequirementCode>
+		<wave>Fresh</wave>
+		<moveType>SHP</moveType>
+		<feasibleTractorCode>53Tractor</feasibleTractorCode>
+		<feasibleDriverType>DCAU54</feasibleDriverType>
+		<feasibleEquipmentCode>53REF</feasibleEquipmentCode>
+		<radialDistanceUom>MI</radialDistanceUom>
+		<radialDistanceProvided>false</radialDistanceProvided>
+		<monetaryValue>
+			<currencyCode>
+			</currencyCode>
+		</monetaryValue>
+		<loadClosedIndicator>false</loadClosedIndicator>
+		<ratingQualifier>
+			<hasrd>false</hasrd>
+			<hasbh>false</hasbh>
+			<hasrt>false</hasrt>
+		</ratingQualifier>
+		<loadingMethod>
+			<isFilo>true</isFilo>
+			<isCoolestAtNose>true</isCoolestAtNose>
+		</loadingMethod>
+		<customFieldList>
+			<name>Collect_Method</name>
+		</customFieldList>
+		<customFieldList>
+			<name>Creation_Source</name>
+		</customFieldList>
+		<customFieldList>
+			<name>LATE_REASON_CODE</name>
+		</customFieldList>
+		<customFieldList>
+			<name>LATE_REASON_DETAIL</name>
+		</customFieldList>
+		<customFieldList>
+			<name>LATE_REVISED_ETA</name>
+		</customFieldList>
+		<customFieldList>
+			<name>NETWORK_ID</name>
+		</customFieldList>
+		<customFieldList>
+			<name>OMIT_CAMS</name>
+			<value>false</value>
+		</customFieldList>
+		<customFieldList>
+			<name>OMIT_WMS</name>
+			<value>false</value>
+		</customFieldList>
+		<customFieldList>
+			<name>Op_Co</name>
+			<value>AUSA</value>
+		</customFieldList>
+		<customFieldList>
+			<name>PAYMENT_AMOUNT</name>
+		</customFieldList>
+		<customFieldList>
+			<name>PAYMENT_DATE</name>
+		</customFieldList>
+		<customFieldList>
+			<name>PAYMENT_ID</name>
+		</customFieldList>
+		<customFieldList>
+			<name>PICKUP_DETAIL</name>
+		</customFieldList>
+		<customFieldList>
+			<name>PO_DUE_DT_CHG</name>
+		</customFieldList>
+		<customFieldList>
+			<name>Pickup_Date</name>
+		</customFieldList>
+		<customFieldList>
+			<name>Pickup_Number</name>
+		</customFieldList>
+		<customFieldList>
+			<name>QtyDiscrepancy</name>
+			<value>false</value>
+		</customFieldList>
+		<customFieldList>
+			<name>RGBatchCount</name>
+			<value>17</value>
+		</customFieldList>
+		<customFieldList>
+			<name>RGBatchID</name>
+			<value>000071344</value>
+		</customFieldList>
+		<customFieldList>
+			<name>Route_ID</name>
+			<value>2210</value>
+		</customFieldList>
+		<customFieldList>
+			<name>Shipment_Notes</name>
+		</customFieldList>
+		<customFieldList>
+			<name>TANDEM_ID</name>
+		</customFieldList>
+		<customFieldList>
+			<name>Tandem_Trip</name>
+		</customFieldList>
+		<customFieldList>
+			<name>Vendor_Ship_From</name>
+		</customFieldList>
+		<customFieldList>
+			<name>lastSentToWms</name>
+			<value>21-08-08 17:23:43.000000000</value>
+		</customFieldList>
+		<commoditySize>
+			<commodityClassCode>FAK</commodityClassCode>
+			<size>
+				<sizeUomcode>LBS</sizeUomcode>
+				<sizeValue>31645</sizeValue>
+			</size>
+			<size>
+				<sizeUomcode>CUFT</sizeUomcode>
+				<sizeValue>1587</sizeValue>
+			</size>
+			<size>
+				<sizeUomcode>WPLT</sizeUomcode>
+				<sizeValue>24</sizeValue>
+			</size>
+			<size>
+				<sizeUomcode>CASES</sizeUomcode>
+				<sizeValue>2026</sizeValue>
+			</size>
+			<size>
+				<sizeUomcode>OPLT</sizeUomcode>
+				<sizeValue>24</sizeValue>
+			</size>
+		</commoditySize>
+		<extendedAttributes>
+			<module>TLM_SHIPMENT_EXT_1</module>
+		</extendedAttributes>
+		<stop>
+			<possibleArrivalStart>08/09/2021 09:10</possibleArrivalStart>
+			<possibleArrivalEnd>08/09/2021 09:10</possibleArrivalEnd>
+			<possibleDepartureStart>08/09/2021 09:40</possibleDepartureStart>
+			<possibleDepartureEnd>08/09/2021 09:40</possibleDepartureEnd>
+			<arrivalStart>08/09/2021 09:10</arrivalStart>
+			<arrivalEnd>08/09/2021 09:10</arrivalEnd>
+			<departureStart>08/09/2021 09:40</departureStart>
+			<departureEnd>08/09/2021 09:40</departureEnd>
+			<facilityAliasId>DCAU54P</facilityAliasId>
+			<isFacilityDc>true</isFacilityDc>
+			<isDropAndHook>false</isDropAndHook>
+			<isReconsigned>false</isReconsigned>
+			<stopSequence>1</stopSequence>
+			<nameOfLocation>Stop and Shop - Freetown PDC</nameOfLocation>
+			<address>136 South Main St</address>
+			<city>Assonet</city>
+			<countryCode>US</countryCode>
+			<county>2001</county>
+			<postalCode>02702</postalCode>
+			<stateProv>MA</stateProv>
+			<distance>0.0</distance>
+			<loadClosedIndicator>false</loadClosedIndicator>
+			<estimatedArrivalTime>08/09/2021 09:10</estimatedArrivalTime>
+			<estimatedDispatchDttm>08/09/2021 09:10</estimatedDispatchDttm>
+			<paperworkStartDttm>08/09/2021 09:10</paperworkStartDttm>
+			<pickStartDttm>08/09/2021 09:10</pickStartDttm>
+			<shipmentStartDttm>08/09/2021 09:10</shipmentStartDttm>
+			<shipmentEndDttm>08/09/2021 09:10</shipmentEndDttm>
+			<autoAppointment>false</autoAppointment>
+			<stopAction>
+				<actionCode>PU</actionCode>
+				<dockId>1</dockId>
+				<order>
+					<tcorderId>DCAU5411-092277-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-092317-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093472-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093471-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093474-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093473-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093477-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094101-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094102-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094100-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094106-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094103-001-20210808</tcorderId>
+				</order>
+			</stopAction>
+			<stopRevenue />
+			<stopMargin />
+			<stopCost />
+			<linehaulRevenue />
+			<accessorialRevenue />
+			<stopOffRevenue />
+			<cmdiscountRevenue />
+		</stop>
+		<stop>
+			<possibleArrivalStart>08/09/2021 10:00</possibleArrivalStart>
+			<possibleArrivalEnd>08/09/2021 10:00</possibleArrivalEnd>
+			<possibleDepartureStart>08/09/2021 11:10</possibleDepartureStart>
+			<possibleDepartureEnd>08/09/2021 11:10</possibleDepartureEnd>
+			<arrivalStart>08/09/2021 10:00</arrivalStart>
+			<arrivalEnd>08/09/2021 10:00</arrivalEnd>
+			<departureStart>08/09/2021 11:10</departureStart>
+			<departureEnd>08/09/2021 11:10</departureEnd>
+			<facilityAliasId>STAU0493</facilityAliasId>
+			<isFacilityDc>false</isFacilityDc>
+			<isDropAndHook>false</isDropAndHook>
+			<isReconsigned>false</isReconsigned>
+			<stopSequence>2</stopSequence>
+			<nameOfLocation>STORE 0493 SS DARTMOUTH</nameOfLocation>
+			<address>25 FAUNCE CORNER ROAD</address>
+			<city>DARTMOUTH</city>
+			<countryCode>US</countryCode>
+			<postalCode>02714</postalCode>
+			<stateProv>MA</stateProv>
+			<distance>16.3</distance>
+			<wave>Fresh</wave>
+			<waveOption>1</waveOption>
+			<loadClosedIndicator>false</loadClosedIndicator>
+			<estimatedArrivalTime>08/09/2021 10:40</estimatedArrivalTime>
+			<estimatedDispatchDttm>08/09/2021 10:40</estimatedDispatchDttm>
+			<paperworkStartDttm>08/09/2021 10:40</paperworkStartDttm>
+			<pickStartDttm>08/09/2021 10:00</pickStartDttm>
+			<shipmentStartDttm>08/09/2021 10:00</shipmentStartDttm>
+			<shipmentEndDttm>08/09/2021 10:40</shipmentEndDttm>
+			<autoAppointment>false</autoAppointment>
+			<stopAction>
+				<actionCode>DL</actionCode>
+				<dockId>Default</dockId>
+				<order>
+					<tcorderId>DCAU5411-092317-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094101-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094102-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094100-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094106-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-094103-001-20210808</tcorderId>
+				</order>
+			</stopAction>
+			<stopRevenue>
+				<currencyCode>USD</currencyCode>
+				<value>24.43</value>
+			</stopRevenue>
+			<stopMargin>
+				<currencyCode>USD</currencyCode>
+				<value>24.43</value>
+			</stopMargin>
+			<stopCost>
+				<currencyCode>USD</currencyCode>
+				<value>0.00</value>
+			</stopCost>
+			<linehaulRevenue>
+				<currencyCode>AED</currencyCode>
+				<value>0.00</value>
+			</linehaulRevenue>
+			<accessorialRevenue>
+				<currencyCode>USD</currencyCode>
+				<value>0.00</value>
+			</accessorialRevenue>
+			<stopOffRevenue>
+				<currencyCode>AED</currencyCode>
+				<value>24.43</value>
+			</stopOffRevenue>
+			<cmdiscountRevenue>
+				<currencyCode>AED</currencyCode>
+				<value>0.00</value>
+			</cmdiscountRevenue>
+		</stop>
+		<stop>
+			<possibleArrivalStart>08/09/2021 11:23</possibleArrivalStart>
+			<possibleArrivalEnd>08/09/2021 11:23</possibleArrivalEnd>
+			<possibleDepartureStart>08/09/2021 12:32</possibleDepartureStart>
+			<possibleDepartureEnd>08/09/2021 12:32</possibleDepartureEnd>
+			<arrivalStart>08/09/2021 11:23</arrivalStart>
+			<arrivalEnd>08/09/2021 11:23</arrivalEnd>
+			<departureStart>08/09/2021 12:32</departureStart>
+			<departureEnd>08/09/2021 12:32</departureEnd>
+			<facilityAliasId>STAU0071</facilityAliasId>
+			<isFacilityDc>false</isFacilityDc>
+			<isDropAndHook>false</isDropAndHook>
+			<isReconsigned>false</isReconsigned>
+			<stopSequence>3</stopSequence>
+			<nameOfLocation>STORE 0071 SS FALL RIVER</nameOfLocation>
+			<address>501 RODMAN STREET</address>
+			<city>FALL RIVER</city>
+			<countryCode>US</countryCode>
+			<postalCode>02721</postalCode>
+			<stateProv>MA</stateProv>
+			<distance>10.8</distance>
+			<wave>Fresh</wave>
+			<waveOption>1</waveOption>
+			<loadClosedIndicator>false</loadClosedIndicator>
+			<estimatedArrivalTime>08/09/2021 12:02</estimatedArrivalTime>
+			<estimatedDispatchDttm>08/09/2021 12:02</estimatedDispatchDttm>
+			<paperworkStartDttm>08/09/2021 12:02</paperworkStartDttm>
+			<pickStartDttm>08/09/2021 11:23</pickStartDttm>
+			<shipmentStartDttm>08/09/2021 11:23</shipmentStartDttm>
+			<shipmentEndDttm>08/09/2021 12:02</shipmentEndDttm>
+			<autoAppointment>false</autoAppointment>
+			<stopAction>
+				<actionCode>DL</actionCode>
+				<dockId>Default</dockId>
+				<order>
+					<tcorderId>DCAU5411-092277-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093472-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093471-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093474-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093473-001-20210808</tcorderId>
+				</order>
+				<order>
+					<tcorderId>DCAU5411-093477-001-20210808</tcorderId>
+				</order>
+			</stopAction>
+			<stopRevenue>
+				<currencyCode>USD</currencyCode>
+				<value>25.59</value>
+			</stopRevenue>
+			<stopMargin>
+				<currencyCode>USD</currencyCode>
+				<value>25.59</value>
+			</stopMargin>
+			<stopCost>
+				<currencyCode>USD</currencyCode>
+				<value>0.00</value>
+			</stopCost>
+			<linehaulRevenue>
+				<currencyCode>AED</currencyCode>
+				<value>0.00</value>
+			</linehaulRevenue>
+			<accessorialRevenue>
+				<currencyCode>USD</currencyCode>
+				<value>0.00</value>
+			</accessorialRevenue>
+			<stopOffRevenue>
+				<currencyCode>AED</currencyCode>
+				<value>25.59</value>
+			</stopOffRevenue>
+			<cmdiscountRevenue>
+				<currencyCode>AED</currencyCode>
+				<value>0.00</value>
+			</cmdiscountRevenue>
+		</stop>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-092277-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Prodce</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>9.37</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0071</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0071 SS FALL RIVER</destinationFacilityName>
+			<destinationAddressLine1>501 RODMAN STREET</destinationAddressLine1>
+			<destinationCity>FALL RIVER</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02721</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:35</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>1</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>4.8</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>5930</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>4.8</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>331</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>340</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8392101</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>PRO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122903_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>092277</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013209905111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Prodce</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>331</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>5930</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>340</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>4.8</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>4.8</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-093471-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Fresh</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>9.3</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0071</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0071 SS FALL RIVER</destinationFacilityName>
+			<destinationAddressLine1>501 RODMAN STREET</destinationAddressLine1>
+			<destinationCity>FALL RIVER</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02721</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0071FRSH</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:35</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>2</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>2.8</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>5884</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>2.8</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>444</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>188</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8448181</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>DRO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122910_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>093471</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013210334111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Fresh</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>444</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>5884</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>188</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>2.8</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>2.8</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-093474-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Fresh</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>0.18</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0071</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0071 SS FALL RIVER</destinationFacilityName>
+			<destinationAddressLine1>501 RODMAN STREET</destinationAddressLine1>
+			<destinationCity>FALL RIVER</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02721</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0071FRSH</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:35</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>3</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>0.1</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>111</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>0.1</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>8</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>5</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8455031</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>SRO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122910_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>093474</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013210337111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Fresh</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>8</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>111</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>5</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>0.1</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>0.1</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-093473-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Fresh</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>3.88</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0071</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0071 SS FALL RIVER</destinationFacilityName>
+			<destinationAddressLine1>501 RODMAN STREET</destinationAddressLine1>
+			<destinationCity>FALL RIVER</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02721</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0071FRSH</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:35</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>4</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>2.4</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>2453</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>2.4</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>151</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>132</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8451161</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>MRO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122910_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>093473</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013210336111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Fresh</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>151</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>2453</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>132</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>2.4</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>2.4</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-093477-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Fresh</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>2.46</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0071</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0071 SS FALL RIVER</destinationFacilityName>
+			<destinationAddressLine1>501 RODMAN STREET</destinationAddressLine1>
+			<destinationCity>FALL RIVER</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02721</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0071FRSH</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:35</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>5</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>1</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>1560</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>1</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>101</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>56</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8462741</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>ERO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122910_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>093477</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013210340111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Fresh</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>101</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>1560</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>56</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>1</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>1</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-093472-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-FreXdk</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>0.4</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0071</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0071 SS FALL RIVER</destinationFacilityName>
+			<destinationAddressLine1>501 RODMAN STREET</destinationAddressLine1>
+			<destinationCity>FALL RIVER</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02721</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0071FREX</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:35</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>6</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>0.6</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>250</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>0.6</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>1</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>40</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8451151</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>DRX</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122910_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>093472</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013210335111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-FreXdk</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>1</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>250</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>40</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>0.6</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>0.6</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-092317-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Prodce</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>10.45</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0493</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0493 SS DARTMOUTH</destinationFacilityName>
+			<destinationAddressLine1>25 FAUNCE CORNER ROAD</destinationAddressLine1>
+			<destinationCity>DARTMOUTH</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02714</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:35</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>7</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>6.5</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>6611</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>6.5</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>317</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>459</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8392191</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>PRO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122904_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>092317</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013209915111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Prodce</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>317</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>6611</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>459</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>6.5</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>6.5</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-094102-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Fresh</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>2.35</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0493</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0493 SS DARTMOUTH</destinationFacilityName>
+			<destinationAddressLine1>25 FAUNCE CORNER ROAD</destinationAddressLine1>
+			<destinationCity>DARTMOUTH</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02714</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0493FRSH</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:37</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>8</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>1.6</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>1490</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>1.6</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>113</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>87</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8452451</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>MRO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122921_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>094102</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013210965111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Fresh</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>113</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>1490</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>87</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>1.6</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>1.6</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-094100-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Fresh</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>9.17</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0493</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0493 SS DARTMOUTH</destinationFacilityName>
+			<destinationAddressLine1>25 FAUNCE CORNER ROAD</destinationAddressLine1>
+			<destinationCity>DARTMOUTH</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02714</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0493FRSH</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:37</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>9</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>2.7</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>5803</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>2.7</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>439</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>184</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8448931</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>DRO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122921_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>094100</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013210963111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Fresh</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>439</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>5803</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>184</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>2.7</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>2.7</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-094106-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-Fresh</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>2</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0493</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0493 SS DARTMOUTH</destinationFacilityName>
+			<destinationAddressLine1>25 FAUNCE CORNER ROAD</destinationAddressLine1>
+			<destinationCity>DARTMOUTH</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02714</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0493FRSH</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:37</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>10</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>0.9</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>LBS</sizeUomcode>
+					<sizeValue>1265</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>OPLT</sizeUomcode>
+					<sizeValue>0.9</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CASES</sizeUomcode>
+					<sizeValue>115</sizeValue>
+					<receivedSizeValue />
+				</size>
+				<size>
+					<sizeUomcode>CUFT</sizeUomcode>
+					<sizeValue>54</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>Pickup_Number</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Department</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Vendor_Ship_From</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Collect_Method</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Op_Co</name>
+				<value>AUSA</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Creation_Source</name>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Load_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8463951</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Order_Type</name>
+				<value>ERO</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Warehouse</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_Count</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Banner</name>
+			</customFieldList>
+			<customFieldList>
+				<name>Batch_ID</name>
+				<value>DCAU5411_080821122921_1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>CAMS_Shuttle_Code</name>
+			</customFieldList>
+			<customFieldList>
+				<name>PG_Class</name>
+				<value>2</value>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Batch_ID</name>
+				<value>5411-08081228-1325</value>
+			</customFieldList>
+			<customFieldList>
+				<name>Trailer_Type</name>
+			</customFieldList>
+			<customFieldList>
+				<name>WMS_Order_ID</name>
+				<value>094106</value>
+			</customFieldList>
+			<customFieldList>
+				<name>TRP_Ship_Rqst_ID</name>
+				<value>013210969111</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-Fresh</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>115</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>1265</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>54</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>0.9</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>0.9</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<distributionOrder>
+			<distributionOrderId>DCAU5411-094101-001-20210808</distributionOrderId>
+			<orderedDttm>08/08/2021 16:28</orderedDttm>
+			<doTransportationStatus>Planned</doTransportationStatus>
+			<doFulfillmentStatus>Released</doFulfillmentStatus>
+			<isCancelled>false</isCancelled>
+			<businessUnit>100</businessUnit>
+			<transportationResponsibilityCode>SHP</transportationResponsibilityCode>
+			<billingMethodCode>1</billingMethodCode>
+			<isOriginalOrder>true</isOriginalOrder>
+			<hasSplit>false</hasSplit>
+			<productClassCode>O-FreXdk</productClassCode>
+			<isPerishable>true</isPerishable>
+			<protectionLevelCode>33-40</protectionLevelCode>
+			<isHazmat>false</isHazmat>
+			<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+			<actualCost>0</actualCost>
+			<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+			<totalActualCostCurrencyCode>USD</totalActualCostCurrencyCode>
+			<freightRevenue>0.4</freightRevenue>
+			<freightRevenueCurrencyCode>USD</freightRevenueCurrencyCode>
+			<referenceField1>SS</referenceField1>
+			<referenceField2>DCAU54</referenceField2>
+			<referenceField3>2day</referenceField3>
+			<originalEstimatedNbrOfPalletsBridged>0</originalEstimatedNbrOfPalletsBridged>
+			<originalEstimatedNbrOfLpnsBridged>0</originalEstimatedNbrOfLpnsBridged>
+			<finalEstimatedNbrOfLpns>0</finalEstimatedNbrOfLpns>
+			<moveType>SHP</moveType>
+			<movementOption>Unrestricted</movementOption>
+			<transportationWaveId>Fresh</transportationWaveId>
+			<transportationWaveOptionId>1</transportationWaveOptionId>
+			<residentialDeliveryRequired>NEI</residentialDeliveryRequired>
+			<blockAutoCreateFlag>false</blockAutoCreateFlag>
+			<blockAutoConsolidateFlag>false</blockAutoConsolidateFlag>
+			<isPartiallyPlanned>false</isPartiallyPlanned>
+			<assignedModeCode>TL</assignedModeCode>
+			<assignedCarrierCode>AU54</assignedCarrierCode>
+			<isBackOrdered>false</isBackOrdered>
+			<originFacilityAliasId>DCAU54P</originFacilityAliasId>
+			<originFacilityName>Stop and Shop - Freetown PDC</originFacilityName>
+			<originAddressLine1>136 South Main St</originAddressLine1>
+			<originCity>Assonet</originCity>
+			<originCounty>2001</originCounty>
+			<originCountry>US</originCountry>
+			<originStateOrProvince>MA</originStateOrProvince>
+			<originPostalCode>02702</originPostalCode>
+			<pickupStartDttm>08/08/2021 15:00</pickupStartDttm>
+			<pickupEndDttm>08/09/2021 23:59</pickupEndDttm>
+			<scheduledDayOfWeek>Monday</scheduledDayOfWeek>
+			<destinationFacilityAliasId>STAU0493</destinationFacilityAliasId>
+			<destinationDockId>Default</destinationDockId>
+			<destinationFacilityName>STORE 0493 SS DARTMOUTH</destinationFacilityName>
+			<destinationAddressLine1>25 FAUNCE CORNER ROAD</destinationAddressLine1>
+			<destinationCity>DARTMOUTH</destinationCity>
+			<destinationCountry>US</destinationCountry>
+			<destinationStateOrProvince>MA</destinationStateOrProvince>
+			<destinationPostalCode>02714</destinationPostalCode>
+			<pobox>false</pobox>
+			<deliveryStartDttm>08/08/2021 15:00</deliveryStartDttm>
+			<deliveryEndDttm>08/09/2021 23:59</deliveryEndDttm>
+			<lpnCubingIndicator>0</lpnCubingIndicator>
+			<palletCubingIndicator>0</palletCubingIndicator>
+			<prepackCubingIndicator>0</prepackCubingIndicator>
+			<shipGroupId>0493FREX</shipGroupId>
+			<hasDocumentsOnly>false</hasDocumentsOnly>
+			<relatedPartiesFlag>false</relatedPartiesFlag>
+			<orderGenerationDate>08/08/2021 16:37</orderGenerationDate>
+			<nonMachinable>false</nonMachinable>
+			<partlShipConfFlag>true</partlShipConfFlag>
+			<allowPreBilling>false</allowPreBilling>
+			<numSplits>0</numSplits>
+			<loadingSequence>12</loadingSequence>
+			<printCertificateOfOrigin>false</printCertificateOfOrigin>
+			<printCommercialInvoice>false</printCommercialInvoice>
+			<printExportDeclaration>false</printExportDeclaration>
+			<printCanadianCustomsInvoice>false</printCanadianCustomsInvoice>
+			<printDockReceipt>false</printDockReceipt>
+			<printNaftaCertificateOfOrigin>false</printNaftaCertificateOfOrigin>
+			<printOceanBillOfLading>false</printOceanBillOfLading>
+			<printExportPackingList>false</printExportPackingList>
+			<printLetterOfInstructions>false</printLetterOfInstructions>
+			<orderShipmentSeq>-2147483648</orderShipmentSeq>
+			<autoAppointment>false</autoAppointment>
+			<commoditySize>
+				<commodityClassCode>FAK</commodityClassCode>
+				<size>
+					<sizeUomcode>WPLT</sizeUomcode>
+					<sizeValue>0.6</sizeValue>
+					<receivedSizeValue />
+				</size>
+			</commoditySize>
+			<processInfo />
+			<customFieldList>
+				<name>WMS_Invoice_Number</name>
+				<value>8452441</value>
+			</customFieldList>
+			<lineItem>
+				<doLineNbr>1</doLineNbr>
+				<itemName>DUMMY</itemName>
+				<description>DUMMY</description>
+				<doLineStatus>Released</doLineStatus>
+				<isCancelled>false</isCancelled>
+				<allocationSourceType>OnHand</allocationSourceType>
+				<budgetedCostCurrencyCode>USD</budgetedCostCurrencyCode>
+				<actualCostCurrencyCode>USD</actualCostCurrencyCode>
+				<referenceBoolean1>false</referenceBoolean1>
+				<referenceBoolean2>false</referenceBoolean2>
+				<productClassCode>O-FreXdk</productClassCode>
+				<protectionLevelCode>33-40</protectionLevelCode>
+				<nmfcFreightClass>FAK</nmfcFreightClass>
+				<isHazmat>false</isHazmat>
+				<lineType>Item</lineType>
+				<isStackable>0</isStackable>
+				<isFromSplitter>false</isFromSplitter>
+				<isGift>false</isGift>
+				<allowRevivalReceiptAlloc>0</allowRevivalReceiptAlloc>
+				<quantity>
+					<orderQty>1</orderQty>
+					<qtyUom>CASES</qtyUom>
+				</quantity>
+				<weight>
+					<plannedWeight>250</plannedWeight>
+					<weightUom>LBS</weightUom>
+				</weight>
+				<volume>
+					<plannedVolume>40</plannedVolume>
+					<volumeUom>CUFT</volumeUom>
+				</volume>
+				<size1>
+					<plannedSize1>0.6</plannedSize1>
+					<size1uom>OPLT</size1uom>
+				</size1>
+				<size2>
+					<plannedSize2>0.6</plannedSize2>
+					<size2uom>WPLT</size2uom>
+				</size2>
+				<size />
+				<lineProcessInfo />
+				<inventoryAttributes />
+			</lineItem>
+		</distributionOrder>
+		<virtualTrip />
+	</shipments>
+</root>

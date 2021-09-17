@@ -56,9 +56,9 @@ namespace JsonToDataweave
             try
             {
 
-                var sourceFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/source2.json";
+                var sourceFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/rand/fake_swfo_json.json";
 
-                var targetFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/target.xml";
+                var targetFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/rand/swfo_rand_xml.xml";
 
 
 

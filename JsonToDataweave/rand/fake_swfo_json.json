@@ -1,0 +1,1035 @@
+﻿{
+  "header": {
+    "source": "str1234",
+    "actionType": "Create",
+    "sequenceNumber": "str1234",
+    "batchId": "str1234",
+    "batchSize": "str1234",
+    "userId": "str1234",
+    "password": "str1234",
+    "msgTime": "str1234",
+    "senderId": "str1234",
+    "receiverId": "str1234",
+    "referenceId": "str1234",
+    "messageType": "str1234",
+    "companyId": "str1234",
+    "msgLocale": "str1234",
+    "version": "str1234",
+    "internalReferenceId": "str1234",
+    "internalDateTimeStamp": "str1234",
+    "externalReferenceId": "str1234",
+    "externalDateTimeStamp": "str1234",
+    "destination": "str1234"
+  },
+  "shipments": [
+    {
+      "tcshipmentId": "str1234",
+      "businessFunction": "N",
+      "synchGroupId": "???",
+      "synchronizeLock": "str1234",
+      "assignedCmid": "???",
+      "assignedCmshipmentId": "???",
+      "designatedCarrierCode": "str1234",
+      "designatedEquipmentCode": "str1234",
+      "designatedModeCode": "str1",
+      "designatedServiceLevel": "str1234",
+      "designatedVoyageOrFlightNumber": "str1234",
+      "assignedCarrierCode": "str1234",
+      "assignedCarrierName": "str1234",
+      "assignedCarrierApnumber": "str1234",
+      "assignedCarrierApnumber2": "str1234",
+      "assignedCarrierApnumber3": "str1234",
+      "assignedEquipmentCode": "str1234",
+      "assignedModeCode": "str1",
+      "assignedServiceLevel": "str1234",
+      "staticRouteId": "str1234",
+      "billToTitle": "str1234",
+      "billToName": "str1234",
+      "billToStreetAddress": "str1234",
+      "billToCity": "str1234",
+      "billToStateProv": "str",
+      "billToPostalCode": "str1234",
+      "billToCountryCode": "st",
+      "billToPhone": "str1234",
+      "billingMethodCode": "0",
+      "bolnumber": "str1234",
+      "trailerNumber": "str1234",
+      "tractorNumber": "str1234",
+      "businessUnit": "str1234",
+      "distancesProvided": "str1234",
+      "directDistance": "???",
+      "outOfRouteMiles": "???",
+      "outOfRouteDistance": "???",
+      "distance": "???",
+      "distanceUom": "MI",
+      "isHazmat": "str1234",
+      "isCancelled": "str1234",
+      "isPerishable": "str1234",
+      "pronumber": "str1234",
+      "purchaseOrder": "str1234",
+      "referenceNumber": "str1234",
+      "refShipmentNbr": "str1234",
+      "numDocks": "???",
+      "numStops": "???",
+      "transportationResponsibilityCode": "SHP",
+      "tenderResponseDue": "str1234",
+      "brokerCarrierCode": "str1234",
+      "brokerReference": "str1234",
+      "statusChangeDttm": "str1234",
+      "lastUpdatedDttm": "str1234",
+      "lastUpdatedSourceTypeValue": "str1234",
+      "lastUpdatedSource": "str1234",
+      "spotCharge": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "shipmentStatus": "Draft",
+      "actualCost": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "budgetedCost": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "totalCost": {
+        "value": "???",
+        "currencyCode": "???"
+      },
+      "currencyCode": "str",
+      "totalRevenue": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "lineHaulRevenue": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "accessorialRevenue": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "stopOffRevenue": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "cmdiscountRevenue": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "freightRevenueSpotCharge": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "linehaulCost": "???",
+      "carrierCharge": "???",
+      "timeFeasibility": "str1234",
+      "tenderDate": "str1234",
+      "businessPartnerCode": "str1234",
+      "externalSystemShipmentId": "str1234",
+      "productClassCode": "str1234",
+      "protectionLevelCode": "str1234",
+      "packagingCode": "XBOX",
+      "dropOffPickupCode": "DROP",
+      "deliveryRequirementCode": "RES",
+      "wmsstatus": "???",
+      "wave": "str1234",
+      "designatedTractorCode": "str1234",
+      "designatedDriverType": "str1234",
+      "moveType": "RLG",
+      "feasibleTractorCode": "str1234",
+      "feasibleDriverType": "str1234",
+      "feasibleEquipmentCode": "str1234",
+      "feasibleVoyageOrFlightNumber": "str1234",
+      "radialDistance": "???",
+      "radialDistanceUom": "MI",
+      "radialDistanceProvided": "str1234",
+      "merchandizingDepartment": "str1234",
+      "priorityType": "Rush",
+      "monetaryValue": {
+        "currencyCode": "???",
+        "value": "???"
+      },
+      "incotermName": "EXW",
+      "contractNumber": "str1234",
+      "vesselName": "str1234",
+      "voyageFlightNum": "str1234",
+      "originPort": "str1234",
+      "destinationPort": "str1234",
+      "masterAirwayBill": "str1234",
+      "forwarderAirwayBill": "str1234",
+      "bookingRefCarrier": "str1234",
+      "bookingRefShipper": "str1234",
+      "commodityCode": "str1234",
+      "unnumber": "str1234",
+      "shipmentLegType": "4",
+      "loadClosedIndicator": "str1234",
+      "prodSchedRefNumber": "str1234",
+      "assignedSecondaryCarrierCode": "str1234",
+      "designatedSecondaryCarrierCode": "str1234",
+      "sealNumber": "str1234",
+      "routeTypeCode": "st",
+      "routingShipWcontrolNbr": "str1234",
+      "shipGroupId": "str1234",
+      "authorizationNbr": "str1234",
+      "hubId": "???",
+      "consAddressCode": "str1234",
+      "trailerGenCode": "s",
+      "hazmatCertiContact": "str1234",
+      "hazmatCertiDecalartion": "str1234",
+      "customerCode": "str1234",
+      "assignedCustomerCode": "str1234",
+      "ratingQualifier": {
+        "hasrd": "str1234",
+        "hasbh": "str1234",
+        "hasrt": "str1234"
+      },
+      "loadingMethod": {
+        "isFilo": "str1234",
+        "isCoolestAtNose": "str1234"
+      },
+      "Comment": [
+        {
+          "Visibility": "???",
+          "Commenttext": "str1234"
+        }
+      ],
+      "customFieldList": [
+        {
+          "name": "str1234",
+          "value": "str1234"
+        }
+      ],
+      "commoditySize": [
+        {
+          "commodityClassCode": "FAK",
+          "size": [
+            {
+              "sizeUomcode": "str1234",
+              "sizeValue": "123.45",
+              "shippedSizeValue": "???",
+              "receivedSizeValue": "???"
+            }
+          ]
+        }
+      ],
+      "Accessorial": [
+        {
+          "Accessorialcode": "str1234",
+          "Accessorialdatasourcevalue": "???",
+          "Isapproved": "str1234",
+          "Payee": "str1234",
+          "Accessorialcost": {
+            "currencyCode": "???",
+            "value": "???"
+          }
+        }
+      ],
+      "Revenueaccessorial": [
+        {
+          "Accessorialcode": "str1234",
+          "Accessorialdatasourcevalue": "???",
+          "Isapproved": "str1234",
+          "Payee": "str1234",
+          "Accessorialcost": {
+            "currencyCode": "???",
+            "value": "???"
+          }
+        }
+      ],
+      "extendedAttributes": {
+        "module": "???",
+        "vtripId": "???",
+        "vtripSeq": "???",
+        "assignedRailRouteName": "str1234",
+        "firstRailCarrier": "str1234",
+        "firstLegDistance": "???",
+        "iintermediateRailCarrier": "str1234",
+        "iintermediateDistance": null
+      },
+      "stop": [
+        {
+          "possibleArrivalStart": "str1234",
+          "possibleArrivalEnd": "str1234",
+          "possibleDepartureStart": "str1234",
+          "possibleDepartureEnd": "str1234",
+          "arrivalStart": "str1234",
+          "arrivalEnd": "str1234",
+          "departureStart": "str1234",
+          "departureEnd": "str1234",
+          "actualDeparture": "str1234",
+          "actualArrival": "str1234",
+          "facilityAliasId": "str1234",
+          "isFacilityDc": "str1234",
+          "handlerCode": "???",
+          "isDropAndHook": "str1234",
+          "isAppointmentRequired": "str1234",
+          "isReconsigned": "str1234",
+          "stopSequence": "???",
+          "stopStatus": "Created",
+          "nameOfLocation": "str1234",
+          "contactFirstName": "str1234",
+          "contactLastName": "str1234",
+          "contactPhone": "str1234",
+          "billOfLadingNumber": "str1234",
+          "address": "str1234",
+          "address2": "str1234",
+          "address3": "str1234",
+          "city": "str1234",
+          "countryCode": "st",
+          "county": "str1234",
+          "postalCode": "str1234",
+          "stateProv": "str",
+          "distance": "???",
+          "wave": "str1234",
+          "waveOption": "str123",
+          "loadClosedIndicator": "str1234",
+          "estimatedArrivalTime": "str1234",
+          "estimatedDepartureTime": "str1234",
+          "arrivalNetdttm": "str1234",
+          "arrivalNltdttm": "str1234",
+          "departureNetdttm": "str1234",
+          "departureNltdttm": "str1234",
+          "estimatedDispatchDttm": "str1234",
+          "paperworkStartDttm": "str1234",
+          "pickStartDttm": "str1234",
+          "shipmentStartDttm": "str1234",
+          "shipmentEndDttm": "str1234",
+          "referenceField1": "str1234",
+          "referenceField2": "str1234",
+          "referenceField3": "str1234",
+          "referenceField4": "str1234",
+          "referenceField5": "str1234",
+          "referenceField6": "str1234",
+          "referenceField7": "str1234",
+          "referenceField8": "str1234",
+          "referenceField9": "str1234",
+          "referenceField10": "str1234",
+          "calculatedEstimatedArrivalTime": "str1234",
+          "actualArrivalStatus": "???",
+          "autoAppointment": "str1234",
+          "sealNumber": "str1234",
+          "Comment": [
+            {
+              "Visibility": "???",
+              "Commenttext": "str1234"
+            }
+          ],
+          "stopAction": {
+            "actionCode": "PU",
+            "dockId": "str1234",
+            "order": [
+              {
+                "tcorderId": "str1234",
+                "orderSplitSeq": "???"
+              }
+            ]
+          },
+          "shipmentStopAttributeList": [
+            {
+              "customFieldName": "str1234",
+              "customFieldValue": "str1234"
+            }
+          ],
+          "commoditySize": [
+            {
+              "commodityClassCode": "FAK",
+              "quantity": {
+                "quantity": "???",
+                "quantityUom": "str1234"
+              },
+              "weight": {
+                "weight": "???",
+                "weightUom": "str1234"
+              },
+              "volume": {
+                "volume": "???",
+                "volumeUom": "str1234"
+              },
+              "size1": {
+                "size1": "???",
+                "size1UOM": "str1234"
+              },
+              "size2": {
+                "size2": "???",
+                "size2UOM": "str1234"
+              },
+              "size": [
+                {
+                  "size": "???",
+                  "sizeUOM": "str1234"
+                }
+              ]
+            }
+          ],
+          "stopRevenue": {
+            "currencyCode": "???",
+            "value": "???"
+          },
+          "stopMargin": {
+            "currencyCode": "???",
+            "value": "???"
+          },
+          "stopCost": {
+            "currencyCode": "???",
+            "value": "???"
+          },
+          "linehaulRevenue": {
+            "currencyCode": "???",
+            "value": "???"
+          },
+          "accessorialRevenue": {
+            "currencyCode": "???",
+            "value": "???"
+          },
+          "stopOffRevenue": {
+            "currencyCode": "???",
+            "value": "???"
+          },
+          "cmdiscountRevenue": {
+            "currencyCode": "???",
+            "value": "???"
+          }
+        }
+      ],
+      "distributionOrder": [
+        {
+          "distributionOrderId": "str1234",
+          "orderType": "str1234",
+          "orderedDttm": "str1234",
+          "doTransportationStatus": "str1234",
+          "doFulfillmentStatus": "str1234",
+          "synchGroupId": "???",
+          "synchronizeLock": "str1234",
+          "updateActionType": "SHIPPED",
+          "actualShippedDttm": "str1234",
+          "isCancelled": "str1234",
+          "businessUnit": "???",
+          "merchandizingDept": "str1234",
+          "monetaryValue": "???",
+          "monetaryValueCurrencyCode": "str",
+          "transportationResponsibilityCode": "SHP",
+          "billingMethodCode": "0",
+          "businessPartnerId": "str1234",
+          "mustReleaseByDttm": "str1234",
+          "isOriginalOrder": "str1234",
+          "hasSplit": "str1234",
+          "parentOrderId": "str1234",
+          "productClassCode": "str1234",
+          "isPerishable": "str1234",
+          "protectionLevelCode": "str1234",
+          "isHazmat": "str1234",
+          "dangerousGoodsCode": "str1234",
+          "productionScheduleRefNbr": "str1234",
+          "priority": "???",
+          "originalBudgetedCost": "???",
+          "budgetedCost": "???",
+          "budgetedCostCurrencyCode": "str",
+          "actualCost": "???",
+          "actualCostCurrencyCode": "str",
+          "totalActualCost": "???",
+          "totalActualCostCurrencyCode": "str",
+          "freightRevenue": "???",
+          "freightRevenueCurrencyCode": "str",
+          "referenceField1": "str1234",
+          "referenceField2": "str1234",
+          "referenceField3": "str1234",
+          "referenceField4": "str1234",
+          "referenceField5": "str1234",
+          "referenceField6": "str1234",
+          "referenceField7": "str1234",
+          "referenceField8": "str1234",
+          "referenceField9": "str1234",
+          "referenceField10": "str1234",
+          "referenceNumberField1": "???",
+          "referenceNumberField2": "???",
+          "referenceNumberField3": "???",
+          "referenceNumberField4": "???",
+          "referenceNumberField5": "???",
+          "nmfcFreightClass": "FAK",
+          "originalEstimatedNbrOfPalletsBridged": "???",
+          "originalEstimatedNbrOfLpnsBridged": "???",
+          "finalEstimatedNbrOfLpns": "???",
+          "planningOriginFacilityId": "str1234",
+          "planningDestinationFacilityId": "str1234",
+          "moveType": "RLG",
+          "movementOption": "Unrestricted",
+          "transportationWaveId": "str1234",
+          "transportationWaveOptionId": "str1234",
+          "residentialDeliveryRequired": "RES",
+          "dropoffOrPickup": "DROP",
+          "packaging": "str1234",
+          "incotermName": "EXW",
+          "incotermLocationAvailabilityDttm": "str1234",
+          "distributionShipVia": "str1",
+          "blockAutoCreateFlag": "true",
+          "blockAutoConsolidateFlag": "true",
+          "isPartiallyPlanned": "str1234",
+          "assignedModeCode": "str1",
+          "assignedCarrierCode": "str1234",
+          "assignedServiceLevelCode": "str1234",
+          "assignedEquipmentCode": "str1234",
+          "designatedModeCode": "str1",
+          "designatedCarrierCode": "str1234",
+          "designatedServiceLevelCode": "str1234",
+          "designatedEquipmentCode": "str1234",
+          "designatedTractorCode": "str1234",
+          "designatedDriverType": "str1234",
+          "designatedVoyageOrFlightNumber": "str1234",
+          "externalSystemPurchaseOrderNbr": "str1234",
+          "distroNumber": "str1234",
+          "salesOrderNbr": "str1234",
+          "isBackOrdered": "str1234",
+          "advertizingDate": "str1234",
+          "customerCode": "str1234",
+          "customerName": "str1234",
+          "dcCenterNbr": "str1234",
+          "federatedStoreNbr": "str1234",
+          "originFacilityAliasId": "str1234",
+          "originDockId": "str1234",
+          "originFacilityName": "str1234",
+          "originAddressLine1": "str1234",
+          "originAddressLine2": "str1234",
+          "originAddressLine3": "str1234",
+          "originCity": "str1234",
+          "originCounty": "str1234",
+          "originCountry": "st",
+          "originStateOrProvince": "str",
+          "originPostalCode": "str1234",
+          "hazmatOfferorName": "str1234",
+          "pickupStartDttm": "str1234",
+          "pickupEndDttm": "str1234",
+          "originShipThruFacilityAliasId": "str1234",
+          "scheduledDayOfWeek": "Sunday",
+          "destinationFacilityAliasId": "str1234",
+          "destinationDockId": "str1234",
+          "destinationFacilityName": "str1234",
+          "destinationAddressLine1": "str1234",
+          "destinationAddressLine2": "str1234",
+          "destinationAddressLine3": "str1234",
+          "destinationCity": "str1234",
+          "destinationCounty": "str1234",
+          "destinationCountry": "st",
+          "destinationStateOrProvince": "str",
+          "destinationPostalCode": "str1234",
+          "pobox": "str1234",
+          "deliveryStartDttm": "str1234",
+          "deliveryEndDttm": "str1234",
+          "destinationContactName": "str1234",
+          "destinationContactTelephoneNbr": "str1234",
+          "destinationContactFaxNbr": "str1234",
+          "destinationContactEmailAddress": "str1234",
+          "destinationShipThruFacilityAliasId": "str1234",
+          "destinationGlobalLocationNbr": "str1234",
+          "destinationPrimaryMaxiAddressNbr": "str1234",
+          "destinationSecondaryMaxiAddressNbr": "str1234",
+          "packAndHoldFlag": "s",
+          "preStickerCode": "s",
+          "majorOrderGroupAttribute": "str1234",
+          "printedDttm": "str1234",
+          "lpnCubingIndicator": "???",
+          "palletCubingIndicator": "st",
+          "prepackCubingIndicator": "s",
+          "palletLpnOption": "s",
+          "shipGroupId": "str1234",
+          "shipGroupSequence": "???",
+          "refShipmentNbr": "str1234",
+          "refShipmentStopSeqNbr": "???",
+          "billOfLadingNbr": "str1234",
+          "bolBreakAttribute": "str",
+          "designatedZoneSkip": "str1234",
+          "compartmentNbr": "???",
+          "importer": "s",
+          "customsBrokerAccountNbr": "str1234",
+          "hasDocumentsOnly": "str1234",
+          "relatedPartiesFlag": "str1234",
+          "internationalGoodsDescription": "str1234",
+          "ftsrNbr": "str1234",
+          "shippingCharges": "???",
+          "codFundsIndicator": "s",
+          "billingAccountNbr": "str1234",
+          "dutyAndTaxCharges": "???",
+          "dutyAndTaxPaymentType": "???",
+          "dutyAndTaxAccountNbr": "str1234",
+          "billToName": "str1234",
+          "billToTitle": "str1234",
+          "billToFacilityAliasId": "str1234",
+          "billToFacilityName": "str1234",
+          "billToAddressLine1": "str1234",
+          "billToAddressLine2": "str1234",
+          "billToAddressLine3": "str1234",
+          "billToCity": "str1234",
+          "billToCounty": "str1234",
+          "billToCountryCode": "st",
+          "billToStateOrProv": "str",
+          "billToPostalCode": "str1234",
+          "billToEmailAddress": "str1234",
+          "billToFaxNbr": "str1234",
+          "billToTelephoneNbr": "str1234",
+          "routeTo": "str1234",
+          "routeType1": "str1234",
+          "routeType2": "str1234",
+          "routingShipGroupNumber": "str1234",
+          "nbrOfPackingSlipsPrinted": "???",
+          "defaultLanguageCode": "4",
+          "markFor": "str1234",
+          "aracctNbr": "str1234",
+          "arcode": "st",
+          "addressCode": "str1234",
+          "returnAddressCode": "str1234",
+          "advertisingCode": "st",
+          "frtFwdrAcctNbr": "str1234",
+          "orderGenerationDate": "str1234",
+          "zoneSkip": "str1234",
+          "isCustomerPickup": "0",
+          "isDirectAllowed": "0",
+          "manifestNbr": "str1234",
+          "orderConsolidationProfile": "str",
+          "distributionOrderType": "Store Distributions",
+          "routingAttribute": "str1234",
+          "nonMachinable": "true",
+          "codReturnCompanyName": "str1234",
+          "incotermFacilityId": "str1234",
+          "dsgShipVia": "str1",
+          "dsgStaticRouteId": "str1234",
+          "deliveryChannel": "???",
+          "partlShipConfFlag": "str1234",
+          "allowPreBilling": "str1234",
+          "laneName": "str1234",
+          "declaredValue": "???",
+          "declaredValueCurrencyCode": "str",
+          "taxId": "str1234",
+          "orderReceived": "str1234",
+          "commodityCode": "str1234",
+          "numSplits": "???",
+          "loadingSequence": "???",
+          "destinationAction": "st",
+          "deliveryOptions": "st",
+          "transportationPlanningOwner": "WMS",
+          "transportationPlanningDirection": "s",
+          "preBillStatus": "st",
+          "lpnLabelType": "str",
+          "nbrOfShippingLabelsToPrint": "???",
+          "palletContentLabelType": "str12",
+          "contentLabelType": "str",
+          "nbrOfContentLabelsToPrint": "???",
+          "packingSlipType": "st",
+          "nbrOfPackingSlipsToPrint": "???",
+          "bolType": "s",
+          "manifestType": "s",
+          "printCertificateOfOrigin": "str1234",
+          "printCommercialInvoice": "str1234",
+          "printExportDeclaration": "str1234",
+          "printCanadianCustomsInvoice": "str1234",
+          "printDockReceipt": "str1234",
+          "printNaftaCertificateOfOrigin": "str1234",
+          "printOceanBillOfLading": "str1234",
+          "printExportPackingList": "str1234",
+          "printLetterOfInstructions": "str1234",
+          "profileType": "st",
+          "deleteProfile": "str1234",
+          "fullProfileName": "str1234",
+          "orderShipmentSeq": "???",
+          "movementType": "st",
+          "splInstrCode1": "st",
+          "splInstrCode2": "st",
+          "splInstrCode3": "st",
+          "splInstrCode4": "st",
+          "splInstrCode5": "st",
+          "splInstrCode6": "st",
+          "splInstrCode7": "st",
+          "splInstrCode8": "st",
+          "splInstrCode9": "st",
+          "splInstrCode10": "st",
+          "designatedTrailerNumber": "str1234",
+          "upsmicostCenter": "str1234",
+          "shippingChannel": "str1234",
+          "guaranteedDelivery": "str1234",
+          "isProforma": "str1234",
+          "applyLNPType": null,
+          "poTypeAttribute": "str1",
+          "epiServiceGroup": "str1234",
+          "importerOfRecordNumber": "str1234",
+          "b13aExportDeclaration": "str1234",
+          "channelType": "???",
+          "staticRouteDeliveryType": "str1234",
+          "sourceOrder": "str1234",
+          "autoAppointment": "str1234",
+          "commoditySize": [
+            {
+              "commodityClassCode": "FAK",
+              "size": [
+                {
+                  "sizeUomcode": "str1234",
+                  "sizeValue": "123.45",
+                  "shippedSizeValue": "???",
+                  "receivedSizeValue": "???"
+                }
+              ]
+            }
+          ],
+          "processInfo": {
+            "refTextField1": "str1234",
+            "refTextField2": "str1234",
+            "refTextField3": "str1234",
+            "refTextField4": "str1234",
+            "refTextField5": "str1234",
+            "refTextField6": "str1234",
+            "refTextField7": "str1234",
+            "refTextField8": "str1234",
+            "refTextField9": "str1234",
+            "refTextField10": "str1234",
+            "refNumberField1": "???",
+            "refNumberField2": "???",
+            "refNumberField3": "???",
+            "refNumberField4": "???",
+            "refNumberField5": "???"
+          },
+          "comment": [
+            {
+              "noteType": "st",
+              "noteCode": "st",
+              "Visibility": "???",
+              "Commenttext": "str1234",
+              "notesProfileName": "str1234"
+            }
+          ],
+          "customFieldList": [
+            {
+              "name": "str1234",
+              "value": "str1234"
+            }
+          ],
+          "capacityTypeList": [
+            {
+              "capacityType": null,
+              "sam": "???",
+              "units": "???",
+              "picks": "???",
+              "lines": "???",
+              "dollars": "???",
+              "lpns": "???"
+            }
+          ],
+          "accessorialOptionGroupList": [
+            {
+              "AccessorialGroupCode": "DVL"
+            }
+          ],
+          "orderSplit": [
+            {
+              "capacityType": null,
+              "spiltSeq": "1234",
+              "actualCost": "???",
+              "actualCostCurrencyCode": "str",
+              "compartmentNbr": "???",
+              "loadingSequence": "???",
+              "orderShipmentSeq": "???",
+              "movementType": "st",
+              "lineItem": [
+                {
+                  "doLineNbr": "str1234",
+                  "quantity": {
+                    "orderQty": "???",
+                    "shippedQty": "???",
+                    "receivedQty": "???",
+                    "qtyUom": "str1234"
+                  },
+                  "weight": {
+                    "plannedWeight": "???",
+                    "shippedWeight": "???",
+                    "receivedWeight": "???",
+                    "weightUom": "str1234"
+                  },
+                  "volume": {
+                    "plannedVolume": "???",
+                    "shippedVolume": "???",
+                    "receivedVolume": "???",
+                    "volumeUom": "str1234"
+                  },
+                  "size1": {
+                    "plannedSize1": "???",
+                    "shippedSize1": "???",
+                    "receivedSize1": "???",
+                    "size1uom": "str1234"
+                  },
+                  "size2": {
+                    "plannedSize2": "???",
+                    "shippedSize2": "???",
+                    "receivedSize2": "???",
+                    "size2uom": "str1234"
+                  },
+                  "size": {
+                    "sizeValue": "???",
+                    "shippedSizeValue": "???",
+                    "receivedSizeValue": "???",
+                    "sizeuomcode": "str1234"
+                  }
+                }
+              ]
+            }
+          ],
+          "lineItem": [
+            {
+              "doLineNbr": "str1234",
+              "internalOrderSequenceNbr": "???",
+              "itemName": "str1234",
+              "description": "str1234",
+              "updateActionType": "SHIPPED",
+              "packageType": "str1234",
+              "doLineStatus": "str1234",
+              "isCancelled": "str1234",
+              "length": "???",
+              "lengthUom": "str1234",
+              "width": "???",
+              "widthUom": "str1234",
+              "height": "???",
+              "heightUom": "str1234",
+              "diameter": "???",
+              "diameterUom": "str1234",
+              "customerItemNbr": "str1234",
+              "chuteAssignType": "str",
+              "allocationSourceType": "OnHand",
+              "totalMonetaryValue": "???",
+              "monetaryValueCurrencyCode": "str",
+              "originalBudgetedCost": "???",
+              "budgetedCost": "???",
+              "budgetedCostCurrencyCode": "str",
+              "actualCost": "???",
+              "actualCostCurrencyCode": "str",
+              "freightRevenue": "???",
+              "freightRevenueCurrencyCode": "str",
+              "userCanceledQty": "???",
+              "pickupStartDttm": "str1234",
+              "pickupEndDttm": "str1234",
+              "deliveryStartDttm": "str1234",
+              "deliveryEndDttm": "str1234",
+              "actualShippedDttm": "str1234",
+              "pickupReferenceNbr": "str1234",
+              "deliveryReferenceNbr": "str1234",
+              "referenceField1": "str1234",
+              "referenceField2": "str1234",
+              "referenceField3": "str1234",
+              "referenceField4": "str1234",
+              "referenceField5": "str1234",
+              "referenceField6": "str1234",
+              "referenceField7": "str1234",
+              "referenceField8": "str1234",
+              "referenceField9": "str1234",
+              "referenceField10": "str1234",
+              "referenceNumberField1": "???",
+              "referenceNumberField2": "???",
+              "referenceNumberField3": "???",
+              "referenceNumberField4": "???",
+              "referenceNumberField5": "???",
+              "referenceBoolean1": "str1234",
+              "referenceBoolean2": "str1234",
+              "referenceSysCode1": "str1234",
+              "referenceSysCode2": "str1234",
+              "referenceSysCode3": "str1234",
+              "productClassCode": "str1234",
+              "protectionLevelCode": "str1234",
+              "nmfcFreightClass": "FAK",
+              "commodityCode": "str1234",
+              "isHazmat": "str1234",
+              "dangerousGoodsCode": "str1234",
+              "merchandizingDepartment": "str1234",
+              "itemGtin": "str1234",
+              "itemSubstituitionCode": "str",
+              "itemSubstituitionCodeValue": "str1234",
+              "serialNbrRequiredIndicator": "???",
+              "exportInformationCode": "str",
+              "monetaryValueSizeUom": "str1234",
+              "unitMonetaryValue": "???",
+              "itemBreakAttribute": "str1234",
+              "standardLpnWeight": "???",
+              "standardLpnVolume": "???",
+              "standardSubPackQty": "???",
+              "standardPackQty": "???",
+              "standardBundleQty": "???",
+              "standardLpnQty": "???",
+              "standardPalletQty": "???",
+              "cubeMultipleQty": "???",
+              "waveAllocationType": "str",
+              "waveProcessingType": "???",
+              "vasProcessType": "s",
+              "lineType": "Item",
+              "pickLocationSubLocationId": "str1234",
+              "pickLocationAssignmentType": "str",
+              "prepackGroupCode": "str1234",
+              "prepackQty": "???",
+              "lpnType": "str",
+              "lpnSize": "str",
+              "palletType": "str",
+              "assortmentNbr": "str1234",
+              "orderConsolidationAttr": "str",
+              "lpnBreakAttribute": "str",
+              "packRate": "???",
+              "price": "???",
+              "retailPrice": "???",
+              "priceTicketType": "str",
+              "criticalDimension1": "???",
+              "criticalDimension2": "???",
+              "criticalDimension3": "???",
+              "customsTag": "str1234",
+              "purchaseOrderNbr": "str1234",
+              "purchaseOrderLineNbr": "str1234",
+              "externalSystemPurchaseOrderNbr": "str1234",
+              "externalSystemPoLineNbr": "str1234",
+              "storeDepartment": "str1234",
+              "merchandizeGroup": "str",
+              "merchandizeType": "str",
+              "eventCode": "str1234",
+              "parentLineId": "str1234",
+              "priority": "???",
+              "unitTaxAmount": "???",
+              "rtsId": "str1234",
+              "rtsLineId": "str1234",
+              "partialFill": "Y",
+              "singleUnit": "Y",
+              "unitVolume": "???",
+              "unitWeight": "???",
+              "poseq": "str1234",
+              "shelfDays": "???",
+              "stackRank": "???",
+              "referenceOrderId": "str1234",
+              "referenceLineItemId": "str1234",
+              "substitutedParentLineNbr": "???",
+              "isStackable": "???",
+              "allocationSourceLineId": "str1234",
+              "allocationSourceId": "str1234",
+              "manufacturingDttm": "str1234",
+              "batchRequirementType": "s",
+              "fulfillmentType": "s",
+              "rrc": "str1234",
+              "isFromSplitter": "str1234",
+              "originalOrderedItemName": "str1234",
+              "substitutionType": "str1234",
+              "backorderReason": "st",
+              "waveAllocLogRsn": "st",
+              "lineProfileName": "str1234",
+              "deleteLineFromProfile": "str1234",
+              "isGift": "str1234",
+              "giftCardValue": "???",
+              "allowRevivalReceiptAlloc": "st",
+              "segment": "s",
+              "quantity": {
+                "orderQty": "???",
+                "shippedQty": "???",
+                "receivedQty": "???",
+                "qtyUom": "str1234"
+              },
+              "weight": {
+                "plannedWeight": "???",
+                "shippedWeight": "???",
+                "receivedWeight": "???",
+                "weightUom": "str1234"
+              },
+              "volume": {
+                "plannedVolume": "???",
+                "shippedVolume": "???",
+                "receivedVolume": "???",
+                "volumeUom": "str1234"
+              },
+              "size1": {
+                "plannedSize1": "???",
+                "shippedSize1": "???",
+                "receivedSize1": "???",
+                "size1uom": "str1234"
+              },
+              "size2": {
+                "plannedSize2": "???",
+                "shippedSize2": "???",
+                "receivedSize2": "???",
+                "size2uom": "str1234"
+              },
+              "size": {
+                "sizeValue": "???",
+                "shippedSizeValue": "???",
+                "receivedSizeValue": "???",
+                "sizeuomcode": "str1234"
+              },
+              "customFieldList": [
+                {
+                  "name": "str1234",
+                  "value": "str1234"
+                }
+              ],
+              "lineProcessInfo": {
+                "lineRefTextField1": "str1234",
+                "lineRefTextField2": "str1234",
+                "lineRefTextField3": "str1234",
+                "lineRefTextField4": "str1234",
+                "lineRefTextField5": "str1234",
+                "lineRefTextField6": "str1234",
+                "lineRefTextField7": "str1234",
+                "lineRefTextField8": "str1234",
+                "lineRefTextField9": "str1234",
+                "lineRefTextField10": "str1234",
+                "lineRefNumberField1": "???",
+                "lineRefNumberField2": "???",
+                "lineRefNumberField3": "???",
+                "lineRefNumberField4": "???",
+                "lineRefNumberField5": "???"
+              },
+              "reasonCode": [
+                {
+                  "reasonCode": "str123",
+                  "reasonType": "Short",
+                  "username": "str1234",
+                  "reasonCodeDttm": "str1234"
+                }
+              ],
+              "comment": [
+                {
+                  "noteType": "st",
+                  "noteCode": "st",
+                  "visibility": "???",
+                  "commentText": "str1234",
+                  "notesProfileName": "str1234"
+                }
+              ],
+              "capacityTypeList": [
+                {
+                  "capacityType": null,
+                  "sam": "???",
+                  "units": "???",
+                  "picks": "???",
+                  "lines": "???",
+                  "dollars": "???",
+                  "lpns": "???"
+                }
+              ],
+              "serialNumberList": [
+                "str1234"
+              ],
+              "classificationCodes": [
+                {
+                  "code": "str1234",
+                  "type": "str1234"
+                }
+              ],
+              "inventoryAttributes": {
+                "inventoryType": "s",
+                "productStatus": "str",
+                "batchNbr": "str1234",
+                "countryOfOrigin": "str1",
+                "itemAttribute1": "str1234",
+                "itemAttribute2": "str1234",
+                "itemAttribute3": "str1234",
+                "itemAttribute4": "str1234",
+                "itemAttribute5": "str1234"
+              }
+            }
+          ]
+        }
+      ],
+      "virtualTrip": {
+        "plannedVirtualTripID": "???",
+        "plannedVirtualTripSequence": "???",
+        "isTandem": "str1234",
+        "deadheadDistance": "???"
+      }
+    }
+  ]
+}
