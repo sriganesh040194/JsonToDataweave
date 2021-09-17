@@ -1,115 +1,115 @@
 {
-    "appointmentHeader": {
-        "source": "CARRIER",
-        "actionType": "Create",
-        "sequenceNumber": "11622598",
-        "batchID": "",
-        "referenceID": "002176573",
-        "userID": "",
-        "password": "",
-        "messageType": "Appointment",
-        "companyID": "100",
-        "msgLocale": "English (United States)",
-        "msgTimeZone": "",
-        "version": "",
-        "sendMessage": "",
-        "carrierCompany": "849",
-        "destination": "AUSA"
-    },
-    "appointmentDetails": [
+  "appointmentHeader": {
+    "source": "CARRIER",
+    "actionType": "Create",
+    "sequenceNumber": "11622598",
+    "batchID": "",
+    "referenceID": "002176573",
+    "userID": "",
+    "password": "",
+    "messageType": "Appointment",
+    "companyID": "100",
+    "msgLocale": "English (United States)",
+    "msgTimeZone": "",
+    "version": "",
+    "sendMessage": "",
+    "carrierCompany": "849",
+    "destination": "AUSA"
+  },
+  "appointmentDetails": [
+    {
+      "appointmentID": "003727334",
+      "appointmentType": "Live Unload",
+      "facilityAliasID": "0069197577184",
+      "appointmentStatus": "Scheduled",
+      "sealNumber": "",
+      "carrierCode": "PREPAID",
+      "carrierName": "PREPAID",
+      "scheduledDttm": null,
+      "actualCheckinDttm": "",
+      "checkOutDttm": "",
+      "loadUnloadStartDttm": "",
+      "loadUnloadEndDttm": "05/22/20 09:00",
+      "appointmentPriority": "1",
+      "driverDurationInMin": "90",
+      "controlNumber": "",
+      "requestorName": "",
+      "requestorType": "1, CARRIER",
+      "reservedApptID": "0",
+      "tpCompanyID": "849",
+      "apptReasonID": "",
+      "apptReasonCode": "",
+      "trailerDurationInMin": "90",
+      "driverID": "",
+      "cancelReasonCode": "",
+      "communicationMode": "",
+      "appointmentComments": "",
+      "businessPartner": "",
+      "cancelIndicator": "false",
+      "loadPosition": "",
+      "businessUnit": "",
+      "requestedTime": "05/22/20 00:30",
+      "templateID": "0",
+      "cancelledTcApptID": "",
+      "appointmentSource": "TLM",
+      "loadConfiguration": "WPLT",
+      "equipmentID": "",
+      "equipmentCode": "",
+      "tractorID": "",
+      "tractorType": "",
+      "equipment": "",
+      "dockID": "",
+      "dockDoorID": "",
+      "appointmentObject": [
         {
-            "appointmentID": "003727334",
-            "appointmentType": "Live Unload",
-            "facilityAliasID": "0069197577184",
-            "appointmentStatus": "Scheduled",
-            "sealNumber": "",
-            "carrierCode": "PREPAID",
-            "carrierName": "PREPAID",
-            "scheduledDttm": "05/22/20 07:30",
-            "actualCheckinDttm": "",
-            "checkOutDttm": "",
-            "loadUnloadStartDttm": "",
-            "loadUnloadEndDttm": "05/22/20 09:00",
-            "appointmentPriority": "1",
-            "driverDurationInMin": "90",
-            "controlNumber": "",
-            "requestorName": "",
-            "requestorType": "1, CARRIER",
-            "reservedApptID": "0",
-            "tpCompanyID": "849",
-            "apptReasonID": "",
-            "apptReasonCode": "",
-            "trailerDurationInMin": "90",
-            "driverID": "",
-            "cancelReasonCode": "",
-            "communicationMode": "",
-            "appointmentComments": "",
-            "businessPartner": "",
-            "cancelIndicator": "false",
-            "loadPosition": "",
-            "businessUnit": "",
-            "requestedTime": "05/22/20 00:30",
-            "templateID": "0",
-            "cancelledTcApptID": "",
-            "appointmentSource": "TLM",
-            "loadConfiguration": "WPLT",
-            "equipmentID": "",
-            "equipmentCode": "",
-            "tractorID": "",
-            "tractorType": "",
-            "equipment": "",
-            "dockID": "",
-            "dockDoorID": "",
-            "appointmentObject": [
+          "objectType": "40",
+          "objectID": "A-105473",
+          "stopSeq": "",
+          "purchaseOrderDetails": [
+            {
+              "bookedSize": "",
+              "sizeUOM": "",
+              "tcOrderID": "A-105473",
+              "originFacilityAliasID": "VA067720-071",
+              "destinationFacilityAliasID": "0069197577184",
+              "poDueDate": "05/22/2020",
+              "size": [
                 {
-                    "objectType": "40",
-                    "objectID": "A-105473",
-                    "stopSeq": "",
-                    "purchaseOrderDetails": [
-                        {
-                            "bookedSize": "",
-                            "sizeUOM": "",
-                            "tcOrderID": "A-105473",
-                            "originFacilityAliasID": "VA067720-071",
-                            "destinationFacilityAliasID": "0069197577184",
-                            "poDueDate": "05/22/2020",
-                            "size": [
-                                {
-                                    "sizeUOMCode": "LBS",
-                                    "sizeValue": "899.0"
-                                },
-                                {
-                                    "sizeUOMCode": "CUFT",
-                                    "sizeValue": "87.42"
-                                },
-                                {
-                                    "sizeUOMCode": "VPLT",
-                                    "sizeValue": "1.476"
-                                },
-                                {
-                                    "sizeUOMCode": "WPLT",
-                                    "sizeValue": "1.476"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "appointmentSlots": [
+                  "sizeUOMCode": "LBS",
+                  "sizeValue": "899.0"
+                },
                 {
-                    "slotID": "Produce/Plants/Seafood",
-                    "slotStartDttm": "5/22/20 07:30",
-                    "slotDuration": "90",
-                    "capacityUsed": "1"
-                }
-            ],
-            "customAttributes": [
+                  "sizeUOMCode": "CUFT",
+                  "sizeValue": "87.42"
+                },
                 {
-                    "attributeName": "LoadType",
-                    "attributeValue": ""
+                  "sizeUOMCode": "VPLT",
+                  "sizeValue": "1.476"
+                },
+                {
+                  "sizeUOMCode": "WPLT",
+                  "sizeValue": "1.476"
                 }
-            ]
+              ]
+            }
+          ]
         }
-    ],
-    "creationDateTime": "2020-02-02T09:09:09"
+      ],
+      "appointmentSlots": [
+        {
+          "slotID": "Produce/Plants/Seafood",
+          "slotStartDttm": "5/22/20 07:30",
+          "slotDuration": "90",
+          "capacityUsed": "1"
+        }
+      ],
+      "customAttributes": [
+        {
+          "attributeName": "LoadType",
+          "attributeValue": ""
+        }
+      ]
+    }
+  ],
+  "creationDateTime": "2020-02-02T09:09:09"
 }

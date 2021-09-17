@@ -41,6 +41,12 @@
           ]
         }
       ],
+      "extendedAttributes": {
+        "module": "TLM_SHIPMENT_EXT_1",
+        "vtripId": "zzcxz",
+        "vtripSeq": "zczx",
+        "assignedRailRouteName": [ { "asdasd": "asda" } ]
+      },
       "appointmentSlots": [
         {
           "slotID": "Produce/Plants/Seafood",

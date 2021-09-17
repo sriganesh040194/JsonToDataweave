@@ -56,9 +56,9 @@ namespace JsonToDataweave
             try
             {
 
-                var sourceFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/SWFO_Source.json";
+                var sourceFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/source2.json";
 
-                var targetFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/SWFO_Target.xml";
+                var targetFileName = "/Users/sriganeshk/Projects/JsonToDataweave/JsonToDataweave/target.xml";
 
 
 
@@ -93,6 +93,26 @@ namespace JsonToDataweave
             return "";
         }
 
+        private static string CompositeString(string[] strings)
+        {
+            var selectedString = new[] { strings[strings.Length - 2], strings.Last() };
+            var compositeString = "";
+            foreach (var x in selectedString)
+            {
+                var regexString = regex.Replace(x, _matchEval);
+                if (!x.Equals(regexString, StringComparison.InvariantCultureIgnoreCase))
+                    compositeString += regexString + "Item.";
+                else if (string.IsNullOrEmpty(compositeString))
+                    compositeString += regexString + ".";
+                else
+                    compositeString += regexString;
+            }
+
+            //compositeString = regex.Replace(splitString[splitString.Length - 2], _matchEval) + "Item." + splitString.Last();
+
+            return compositeString;
+        }
+
         private static string ConstructDataWeave(JToken jToken, string mapString, bool isArray = false)
         {
             var dataweave = string.Empty;
@@ -100,10 +120,22 @@ namespace JsonToDataweave
             {
 
                 var splitString = jToken.Path.Split(".");
-                //dataweave += $"\"{splitString.Last()} \" : {splitString.Last()} mapObject ({splitString.Last()}item, {splitString.Last()}value) {{ {ConstructDataWeave(jToken.Children(), splitString.Last() + "item")} }} ";
+                //dataweave += $"\"{splitString.Last()} \" : {splitString.Last()} mapObject ({splitString.Last()}Value, {splitString.Last()}Key) {{ {ConstructDataWeave(jToken.Children(), splitString.Last() + "item")} }} ";
                 if (!isArray)
                 {
+                    //var compositeString = mapString + "." + splitString.Last();
+
+                    //if (mapString.Equals(splitString.Last(), StringComparison.InvariantCultureIgnoreCase))
+                    //{
+
+                    //    compositeString = regex.Replace(splitString[splitString.Length - 2], _matchEval) + "Item." + splitString.Last();
+                    //}
+
+
                     dataweave += $"\"{FindString(splitString.Last())}\" : {{ ";
+
+                    //dataweave += $"\"{FindString(splitString.Last())}\" : {compositeString} mapObject (({splitString.Last()}Value, {splitString.Last()}Key) -> {{";
+
                     foreach (var x in jToken.Children())
                     {
                         //splitString = x.Path.Split(".");
@@ -134,10 +166,10 @@ namespace JsonToDataweave
                 //        temp += r.Replace(splitString[splitString.Length-1], myEvaluator) + "Item.";
                 //    compositeString = temp + splitString.Last();
                 {
-
-                    compositeString = regex.Replace(splitString[splitString.Length - 2], _matchEval) + "Item." + splitString.Last();
+                    compositeString = CompositeString(splitString);
+                    //compositeString = regex.Replace(splitString[splitString.Length - 2], _matchEval) + "Item." + splitString.Last();
                 }
-                dataweave = $"\"{FindString(splitString.Last())}\" : {compositeString} map (({splitString.Last()}Item, {splitString.Last()}Index) -> {{";
+                dataweave += $"\"{FindString(splitString.Last())}\" : {compositeString} map (({splitString.Last()}Item, {splitString.Last()}Index) -> {{";
                 foreach (var x in jToken.Children())
                 {
                     // splitString = x.Path.Split(".");
@@ -146,8 +178,8 @@ namespace JsonToDataweave
                 dataweave += "})";
             }
 
-            //Internal Array
-            else if (jToken.Count() > 0 && jToken.Children().FirstOrDefault().Type == JTokenType.Array)
+            //Internal Array or Object
+            else if (jToken.Count() > 0 && ((jToken.Children().FirstOrDefault().Type == JTokenType.Array)))
             {
                 var splitString = jToken.Path.Split(".");
 
@@ -155,6 +187,18 @@ namespace JsonToDataweave
                 {
 
                     dataweave += ConstructDataWeave(x, splitString.Last());
+                }
+            }
+
+            //Internal Array or Object
+            else if (jToken.Count() > 0 && (jToken.Children().FirstOrDefault().Type == JTokenType.Object))
+            {
+                //var splitString = jToken.Path.Split(".");
+
+                foreach (var x in jToken.Children())
+                {
+
+                    dataweave += ConstructDataWeave(x, mapString);
                 }
             }
 

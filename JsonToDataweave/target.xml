@@ -1,101 +1,148 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <tXML>
-    <Header>
-        <Source>SHIPPER</Source>
-        <Action_Type>Update</Action_Type>
-        <Sequence_Number>21248785</Sequence_Number>
-        <Batch_ID />
-        <Reference_ID />
-        <User_ID></User_ID>
-        <Password />
-        <Message_Type>Appointment</Message_Type>
-        <Company_ID>100</Company_ID>
-        <Msg_Locale>English (United States)</Msg_Locale>
-        <Msg_Time_Zone/>
-        <Version/>
-        <Send_Message />
-        <Carrier_Company>0</Carrier_Company>
-        <Destination>AUSA</Destination>
-    </Header>
-    <Message>
-        <Appointment>
-            <Appointment_ID>004046327</Appointment_ID>
-            <Appointment_Type>Live Unload</Appointment_Type>
-            <Facility_Alias_ID>0804911859101</Facility_Alias_ID>
-            <Appointment_Status>Scheduled</Appointment_Status>
-            <Seal_Number></Seal_Number>
-            <Carrier_Code>AU93</Carrier_Code>
-            <Carrier_Name>AUSA Fleet</Carrier_Name>
-            <Scheduled_Dttm>8/16/21 12:00</Scheduled_Dttm>
-            <Actual_CheckIn_Dttm></Actual_CheckIn_Dttm>
-            <Check_Out_Dttm></Check_Out_Dttm>
-            <Load_Unload_Start_Dttm></Load_Unload_Start_Dttm>
-            <Load_Unload_End_Dttm>8/16/21 13:30</Load_Unload_End_Dttm>
-            <Appointment_priority>0</Appointment_priority>
-            <Driver_Duration_In_Min>90</Driver_Duration_In_Min>
-            <Control_number></Control_number>
-            <Requestor_name></Requestor_name>
-            <Requestor_type></Requestor_type>
-            <Reserved_appt_id>0</Reserved_appt_id>
-            <Tp_Company_Id>582</Tp_Company_Id>
-            <Appt_Reason_Id></Appt_Reason_Id>
-            <Appt_Reason_Code></Appt_Reason_Code>
-            <Trailer_Duration_In_Min>90</Trailer_Duration_In_Min>
-            <Driver_ID></Driver_ID>
-            <Cancel_Reason_code></Cancel_Reason_code>
-            <Communication_Mode></Communication_Mode>
-            <Appointment_Comments></Appointment_Comments>
-            <Business_partner></Business_partner>
-            <Cancel_Indicator>false</Cancel_Indicator>
-            <Load_position></Load_position>
-            <Business_Unit></Business_Unit>
-            <Requested_Time>8/8/21 16:01</Requested_Time>
-            <template_Id>0</template_Id>
-            <Cancelled_Tc_Appt_Id></Cancelled_Tc_Appt_Id>
-            <Appointment_Source>TLM</Appointment_Source>
-            <Load_Configuration>WPLT</Load_Configuration>
-            <Equipment_ID></Equipment_ID>
-            <Equipment_Code></Equipment_Code>
-            <Tractor_ID></Tractor_ID>
-            <Tractor_Type></Tractor_Type>
-            <Equipment></Equipment>
-            <Dock_Id></Dock_Id>
-            <Door_Id></Door_Id>
-            <ApptObject>
-                <Object_Type>30</Object_Type>
-                <Object_ID>CS02185641</Object_ID>
-                <Stop_Seq>2</Stop_Seq>
-                <Purchase_Order>
-                    <Booked_Size></Booked_Size>
-                    <Size_UOM></Size_UOM>
-                    <TC_Order_Id>A-542138</TC_Order_Id>
-                    <Origin_Facility_Alias_ID>VA020119-093</Origin_Facility_Alias_ID>
-                    <Destination_Facility_Alias_ID>0804911859101</Destination_Facility_Alias_ID>
-                    <PoDueDate>8/16/21 00:00</PoDueDate>
-                    <Size>
-                        <SizeUOMCode>LBS</SizeUOMCode>
-                        <SizeValue>22793.76</SizeValue>
-                    </Size>
-                    <Size>
-                        <SizeUOMCode>CUFT</SizeUOMCode>
-                        <SizeValue>1138.98</SizeValue>
-                    </Size>
-                    <Size>
-                        <SizeUOMCode>OPLT</SizeUOMCode>
-                        <SizeValue>0.00</SizeValue>
-                    </Size>
-                    <Size>
-                        <SizeUOMCode>WPLT</SizeUOMCode>
-                        <SizeValue>21.8125</SizeValue>
-                    </Size>
-                </Purchase_Order>
-            </ApptObject>
-            <Appointment_Slots>
-                <Slot_Id>Fleet </Slot_Id>
-                <Slot_Start_Dttm>2021-08-16 16:00:00</Slot_Start_Dttm>
-                <Slot_Duration>90</Slot_Duration>
-                <Capacity_Used>1</Capacity_Used>
-            </Appointment_Slots>
-        </Appointment>
-    </Message>
+	<Header>
+		<Source>SHIPPER</Source>
+		<Action_Type>Create</Action_Type>
+		<Sequence_Number>21063696</Sequence_Number>
+		<Batch_ID />
+		<Reference_ID />
+		<User_ID>
+		</User_ID>
+		<Password />
+		<Message_Type>Appointment</Message_Type>
+		<Company_ID>100</Company_ID>
+		<Msg_Locale>English (United States)</Msg_Locale>
+		<Msg_Time_Zone />
+		<Version />
+		<Send_Message />
+		<Carrier_Company>0</Carrier_Company>
+		<Destination>AUSA</Destination>
+	</Header>
+	<Message>
+		<Appointment>
+			<Appointment_ID>004054526</Appointment_ID>
+			<Appointment_Type>Live Unload</Appointment_Type>
+			<Facility_Alias_ID>0804911859101</Facility_Alias_ID>
+			<Appointment_Status>Scheduled</Appointment_Status>
+			<Seal_Number>
+			</Seal_Number>
+			<Carrier_Code>SCNN</Carrier_Code>
+			<Carrier_Name>Schneider National Carriers, Inc.</Carrier_Name>
+			<Scheduled_Dttm>8/16/21 12:00</Scheduled_Dttm>
+			<Actual_CheckIn_Dttm>
+			</Actual_CheckIn_Dttm>
+			<Check_Out_Dttm>
+			</Check_Out_Dttm>
+			<Load_Unload_Start_Dttm>
+			</Load_Unload_Start_Dttm>
+			<Load_Unload_End_Dttm>8/16/21 14:30</Load_Unload_End_Dttm>
+			<Appointment_priority>0</Appointment_priority>
+			<Driver_Duration_In_Min>150</Driver_Duration_In_Min>
+			<Control_number>
+			</Control_number>
+			<Requestor_name>
+			</Requestor_name>
+			<Requestor_type>
+			</Requestor_type>
+			<Reserved_appt_id>
+			</Reserved_appt_id>
+			<Tp_Company_Id>106</Tp_Company_Id>
+			<Appt_Reason_Id>
+			</Appt_Reason_Id>
+			<Appt_Reason_Code>
+			</Appt_Reason_Code>
+			<Trailer_Duration_In_Min>150</Trailer_Duration_In_Min>
+			<Driver_ID>
+			</Driver_ID>
+			<Cancel_Reason_code>
+			</Cancel_Reason_code>
+			<Communication_Mode>
+			</Communication_Mode>
+			<Appointment_Comments>
+			</Appointment_Comments>
+			<Business_partner>
+			</Business_partner>
+			<Cancel_Indicator>false</Cancel_Indicator>
+			<Load_position>
+			</Load_position>
+			<Business_Unit>
+			</Business_Unit>
+			<Requested_Time>8/16/21 00:01</Requested_Time>
+			<template_Id>0</template_Id>
+			<Cancelled_Tc_Appt_Id>
+			</Cancelled_Tc_Appt_Id>
+			<Appointment_Source>TLM</Appointment_Source>
+			<Load_Configuration>WPLT</Load_Configuration>
+			<Equipment_ID>
+			</Equipment_ID>
+			<Equipment_Code>
+			</Equipment_Code>
+			<Tractor_ID>
+			</Tractor_ID>
+			<Tractor_Type>
+			</Tractor_Type>
+			<Equipment>53DRY</Equipment>
+			<Dock_Id>
+			</Dock_Id>
+			<Door_Id>
+			</Door_Id>
+			<ApptObject>
+				<Object_Type>30</Object_Type>
+				<Object_ID>CS02178045</Object_ID>
+				<Stop_Seq>2</Stop_Seq>
+				<Purchase_Order>
+					<Booked_Size>
+					</Booked_Size>
+					<Size_UOM>
+					</Size_UOM>
+					<TC_Order_Id>A-542143</TC_Order_Id>
+					<Origin_Facility_Alias_ID>VA075583-091</Origin_Facility_Alias_ID>
+					<Destination_Facility_Alias_ID>0804911859101</Destination_Facility_Alias_ID>
+					<PoDueDate>8/16/21 00:00</PoDueDate>
+					<Size>
+						<SizeUOMCode>LBS</SizeUOMCode>
+						<SizeValue>36484.24</SizeValue>
+					</Size>
+					<Size>
+						<SizeUOMCode>CUFT</SizeUOMCode>
+						<SizeValue>2729.98</SizeValue>
+					</Size>
+					<Size>
+						<SizeUOMCode>OPLT</SizeUOMCode>
+						<SizeValue>0.00</SizeValue>
+					</Size>
+					<Size>
+						<SizeUOMCode>WPLT</SizeUOMCode>
+						<SizeValue>59.0071</SizeValue>
+					</Size>
+				</Purchase_Order>
+			</ApptObject>
+			<Appointment_Slots>
+				<Slot_Id>I-GRONOR </Slot_Id>
+				<Slot_Start_Dttm>8/16/21 12:00</Slot_Start_Dttm>
+				<Slot_Duration>150</Slot_Duration>
+				<Capacity_Used>1</Capacity_Used>
+			</Appointment_Slots>
+			<Custom_Attribute>
+				<Attribute_Name>LoadType</Attribute_Name>
+				<Attribute_Value>
+				</Attribute_Value>
+			</Custom_Attribute>
+			<Custom_Attribute>
+				<Attribute_Name>Op_Co</Attribute_Name>
+				<Attribute_Value>
+				</Attribute_Value>
+			</Custom_Attribute>
+			<Custom_Attribute>
+				<Attribute_Name>Reserved</Attribute_Name>
+				<Attribute_Value>
+				</Attribute_Value>
+			</Custom_Attribute>
+			<Custom_Attribute>
+				<Attribute_Name>PriorityAppointment</Attribute_Name>
+				<Attribute_Value>
+				</Attribute_Value>
+			</Custom_Attribute>
+		</Appointment>
+	</Message>
 </tXML>
